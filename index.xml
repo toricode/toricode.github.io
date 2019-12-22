@@ -6,10 +6,21 @@
     <description>Recent content on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 21 Dec 2019 22:37:34 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 14:37:23 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Write Text File</title>
+      <link>https://toricode.com/python-write-text-file/</link>
+      <pubDate>Sun, 22 Dec 2019 14:37:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-write-text-file/</guid>
+      <description>In this tutorial we will learn how to use Python to write text file with different mode to overwrite or append existing file and how to write Unicode charater to a text file.
+Append content to the end of existing file with mode &amp;lsquo;a&amp;rsquo; For example we have the file named test.txt with content as below and located in the same folder of your Python code.
+To append to existing file&amp;rsquo;s content we use &amp;lsquo;a&amp;rsquo; for mode argument when open file for writing in Python.</description>
+    </item>
     
     <item>
       <title>Python Read Text File</title>
