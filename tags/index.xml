@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tori Code</title>
+    <link>https://toricode.com/tags/</link>
+    <description>Recent content in Tags on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2019 22:37:34 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python File</title>
+      <link>https://toricode.com/tag/python-file/</link>
+      <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-file/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

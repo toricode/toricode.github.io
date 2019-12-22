@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Tori Code</title>
+    <link>https://toricode.com/posts/</link>
+    <description>Recent content in Posts on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 21 Dec 2019 22:37:34 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Read Text File</title>
+      <link>https://toricode.com/python-read-text-file/</link>
+      <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-read-text-file/</guid>
+      <description>In this tutorial we will learn how to use Python to read a text file with different approach of writing code.
+Create test text file First step we need to create a text file named test.txt in the same folder that we will create Python code file and input below text for testing purpose.
+Hello! from toricode.com This file to test Python text file reading. Happy Coding! Read all text of file To read file in Python we use built-in method open().</description>
+    </item>
+    
+  </channel>
+</rss>
