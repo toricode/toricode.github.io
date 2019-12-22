@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 22 Dec 2019 14:37:23 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 22 Dec 2019 20:27:49 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Excel</title>
+      <link>https://toricode.com/tag/python-excel/</link>
+      <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-excel/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Python File</title>

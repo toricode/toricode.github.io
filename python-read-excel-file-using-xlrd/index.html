@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Python Read Excel File using xlrd</title>
+    <meta name="title" content="Python Read Excel File using xlrd">
+    <meta name="description" content="In this tutorial we will learn how to read Excel file in Python using xlrd package.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://toricode.com/python-read-excel-file-using-xlrd/">
+    <meta property="og:title" content="Python Read Excel File using xlrd">
+    <meta property="og:description" content="In this tutorial we will learn how to read Excel file in Python using xlrd package.">
+    
+    <meta property="og:image" content="https://toricode.com/images/python-read-excel-file-using-xlrd.png">
+    
+    <meta property="twitter:card" content="https://toricode.com/images/python-read-excel-file-using-xlrd.png">
+    <meta property="twitter:url" content="https://toricode.com/python-read-excel-file-using-xlrd/">
+    <meta property="twitter:title" content="Python Read Excel File using xlrd">
+    <meta property="twitter:description" content="In this tutorial we will learn how to read Excel file in Python using xlrd package.">
+    
+    <meta property="twitter:image" content="https://toricode.com/images/python-read-excel-file-using-xlrd.png">
+    
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/all.min.css" />
+    <link rel="stylesheet" href="https://toricode.com/css/style.min.css?version=1" integrity="" media="screen" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154913268-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154913268-1');
+    </script>
+</head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://toricode.com/">
+        <img src="https://toricode.com//images/Tori_Code_Logo.png" height="50" class="d-inline-block align-top" alt="Tori Code">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com/">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com//python">python</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+<div id="content">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9" style="background-color: #FFF;margin-top:20px;">
+            <h2>Python Read Excel File using xlrd</h1>
+            <div>
+
+<p>In this tutorial we will learn how to read Excel file in Python using xlrd package.</p>
+
+<h4 id="install-xlrd-package">Install xlrd package</h4>
+
+<p>Firstly you need to install xlrd package by command below.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">pip install xlrd</code></pre></div>
+
+<h4 id="read-excel-spreadsheet-in-python">Read Excel Spreadsheet in Python</h4>
+
+<p>To write code example we assump that you have the sample.xlsx Excel file with content as below in your machine.</p>
+
+<p><img src="/images/python-read-excel-file-using-xlrd-sample-excel.png" alt="Python Read Excel File using xlrd" class="img-fluid"></p>
+
+<p>Below is Python code example to read sample.xlsx Excel file content and sprint the content to terminal.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> xlrd
+
+workbook <span style="color:#f92672">=</span> xlrd<span style="color:#f92672">.</span>open_workbook(<span style="color:#e6db74">&#39;D:\ToriCode\Python\sample.xlsx&#39;</span>)
+sheet <span style="color:#f92672">=</span> workbook<span style="color:#f92672">.</span>sheet_by_index(<span style="color:#ae81ff">0</span>)
+
+<span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> range(sheet<span style="color:#f92672">.</span>nrows):
+    values <span style="color:#f92672">=</span> []
+    <span style="color:#66d9ef">for</span> col <span style="color:#f92672">in</span> range(sheet<span style="color:#f92672">.</span>ncols):
+        cell_value <span style="color:#f92672">=</span> sheet<span style="color:#f92672">.</span>cell_value(row, col)
+        values<span style="color:#f92672">.</span>append(cell_value)
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;,&#39;</span><span style="color:#f92672">.</span>join(values))</code></pre></div></p>
+
+<p>Run Python code above in your terminal to get the result as below.</p>
+
+<p><img src="/images/python-read-excel-file-using-xlrd-result.png" alt="Python Read Excel File using xlrd" class="img-fluid"></p>
+
+<p>The source code in this article can be found at: <a href="https://github.com/toricode/PythonReadExcelXlrd" target="_blank">github.com/toricode/PythonReadExcelXlrd</a></p>
+
+<p>or download at:</p>
+
+<p><a href="https://github.com/toricode/PythonReadExcelXlrd/archive/1.0.0.zip" class="btn btn-primary"><i class="fas fa-download"></i> Download Source Code</a></p>
+
+<p>Happy Coding 😊</p>
+</div>
+        </div>
+        <div class="col-lg-3">
+                <h6>Tags</h6>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center tag-list">
+                        <a href="https://toricode.com/tag/python-excel">
+                            python excel
+                        </a>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center tag-list">
+                        <a href="https://toricode.com/tag/python-file">
+                            python file
+                        </a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</div>
+        </div><footer>
+    <div class="copy-wrapper">
+        <div class="container">
+            <p class="copyright">Copyright &#xA9; 2019 toricode.com All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://toricode.com/js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://toricode.com/js/bootstrap.min.js"></script>
+</body>
+</html>

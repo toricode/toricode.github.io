@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Excel on Tori Code</title>
+    <link>https://toricode.com/tag/python-excel/</link>
+    <description>Recent content in Python Excel on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 22 Dec 2019 20:27:49 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/python-excel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Read Excel File using xlrd</title>
+      <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
+      <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-read-excel-file-using-xlrd/</guid>
+      <description>In this tutorial we will learn how to read Excel file in Python using xlrd package.
+Install xlrd package Firstly you need to install xlrd package by command below.
+pip install xlrd Read Excel Spreadsheet in Python To write code example we assump that you have the sample.xlsx Excel file with content as below in your machine.
+Below is Python code example to read sample.xlsx Excel file content and sprint the content to terminal.</description>
+    </item>
+    
+  </channel>
+</rss>
