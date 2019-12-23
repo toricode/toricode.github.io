@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/python-deserialize-json-string-to-object/</loc>
+    <lastmod>2019-12-23T21:23:32+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/python-write-excel-file-using-xlwt/</loc>
     <lastmod>2019-12-22T23:58:56+07:00</lastmod>
   </url>
@@ -29,13 +34,13 @@
   
   <url>
     <loc>https://toricode.com/posts/</loc>
-    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
+    <lastmod>2019-12-23T21:23:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/python/</loc>
-    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
+    <lastmod>2019-12-23T21:23:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -52,6 +57,12 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/python-json/</loc>
+    <lastmod>2019-12-23T21:23:32+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/tags/</loc>
     <lastmod>2019-12-22T23:58:56+07:00</lastmod>
     <priority>0</priority>
@@ -59,7 +70,7 @@
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
+    <lastmod>2019-12-23T21:23:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
