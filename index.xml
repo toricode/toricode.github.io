@@ -6,10 +6,22 @@
     <description>Recent content on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 22:07:41 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 23:20:31 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Serialize Python Object to JSON String</title>
+      <link>https://toricode.com/serialize-python-object-to-json-string/</link>
+      <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
+      
+      <guid>https://toricode.com/serialize-python-object-to-json-string/</guid>
+      <description>In this Python tutorial we will learn how to serialize a Python object into a JSON string and go through different code examples in Python.
+First step we need to import json package in source file. import json
+To serialize a Python object into JSON string we will use json.dumps() method. Below are list of different example of using json.dumps() method.
+Serialize Python dict Object to JSON String user = {&amp;#34;firstName&amp;#34;: &amp;#34;Kathy&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Wells&amp;#34;} json_user = json.</description>
+    </item>
     
     <item>
       <title>Python Deserialize JSON File to Object</title>
