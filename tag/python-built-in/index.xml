@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Built In on Tori Code</title>
+    <link>https://toricode.com/tag/python-built-in/</link>
+    <description>Recent content in Python Built In on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Dec 2019 20:11:02 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/python-built-in/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python abs() Function Code Examples</title>
+      <link>https://toricode.com/python-abs-function-code-examples/</link>
+      <pubDate>Wed, 25 Dec 2019 20:11:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-abs-function-code-examples/</guid>
+      <description>abs() is a Python built-in function to return the absolute value of a number.
+abs() with negative interger number argument x = abs(-5) print(x) Output:
+5  abs() with positive interger number argument x = abs(5) print(x) Output:
+5  abs() with 0 in argument x = abs(0) print(x) Output:
+0  abs() with negative float number argument x = abs(-9.5) print(x) Output:
+9.5  abs() with positive float number argument x = abs(9.</description>
+    </item>
+    
+  </channel>
+</rss>
