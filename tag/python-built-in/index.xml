@@ -6,10 +6,22 @@
     <description>Recent content in Python Built In on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2019 22:05:54 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 22:57:04 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tag/python-built-in/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python any() Function Code Examples</title>
+      <link>https://toricode.com/python-any-function-code-examples/</link>
+      <pubDate>Wed, 25 Dec 2019 22:57:04 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-any-function-code-examples/</guid>
+      <description>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.
+any() with the list has True value data_list = [True, False, False] x = any(data_list) print(x) Output:
+True  any() with list of all True values data_list = [True, True, True] x = any(data_list) print(x) Output:
+True  any() with list of all False values data_list = [False, False, False] x = any(data_list) print(x) Output:</description>
+    </item>
     
     <item>
       <title>Python all() Function Code Examples</title>

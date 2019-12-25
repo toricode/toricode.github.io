@@ -4,24 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Python all() Function Code Examples</title>
-    <meta name="title" content="Python all() Function Code Examples">
-    <meta name="description" content="all() is a Python built in function to return True if all elements of the iterable argument are True or the iterable argument is empty.">
+    <title>Python any() Function Code Examples</title>
+    <meta name="title" content="Python any() Function Code Examples">
+    <meta name="description" content="any() is a Python built in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://toricode.com/python-all-function-code-examples/">
-    <meta property="og:title" content="Python all() Function Code Examples">
-    <meta property="og:description" content="all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.">
+    <meta property="og:url" content="https://toricode.com/python-any-function-code-examples/">
+    <meta property="og:title" content="Python any() Function Code Examples">
+    <meta property="og:description" content="any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.">
     
-    <meta property="og:image" content="https://toricode.com/images/python-all-function-code-examples.png">
+    <meta property="og:image" content="https://toricode.com/images/python-any-function-code-examples.png">
     
     <meta property="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ToriCodeBlog">
     <meta name="twitter:creator" content="@ToriCodeBlog">
-    <meta name="twitter:url" content="https://toricode.com/python-all-function-code-examples/">
-    <meta name="twitter:title" content="Python all() Function Code Examples">
-    <meta name="twitter:description" content="all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.">
+    <meta name="twitter:url" content="https://toricode.com/python-any-function-code-examples/">
+    <meta name="twitter:title" content="Python any() Function Code Examples">
+    <meta name="twitter:description" content="any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.">
     
-    <meta name="twitter:image" content="https://toricode.com/images/python-all-function-code-examples.png">
+    <meta name="twitter:image" content="https://toricode.com/images/python-any-function-code-examples.png">
     
     <link rel="stylesheet" type="text/css" href="https://toricode.com/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://toricode.com/css/all.min.css" />
@@ -56,136 +56,136 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9" style="background-color: #FFF;margin-top:20px;">
-            <h2>Python all() Function Code Examples</h1>
+            <h2>Python any() Function Code Examples</h1>
             <div>
 
-<p>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.</p>
+<p>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.</p>
 
-<h4 id="all-with-list-of-all-true-values">all() with list of all True values</h4>
+<h4 id="any-with-the-list-has-true-value">any() with the list has True value</h4>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [True, False, False]
+x <span style="color:#f92672">=</span> any(data_list)
+<span style="color:#66d9ef">print</span>(x)</code></pre></div>
+Output:</p>
+
+<pre><code>True
+</code></pre>
+
+<h4 id="any-with-list-of-all-true-values">any() with list of all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [True, True, True]
-x <span style="color:#f92672">=</span> all(data_list)
+x <span style="color:#f92672">=</span> any(data_list)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-list-of-not-all-true-values">all() with list of not all True values</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [False, True, True]
-x <span style="color:#f92672">=</span> all(data_list)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>False
-</code></pre>
-
-<h4 id="all-with-list-of-all-false-values">all() with list of all False values</h4>
+<h4 id="any-with-list-of-all-false-values">any() with list of all False values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [False, False, False]
-x <span style="color:#f92672">=</span> all(data_list)
+x <span style="color:#f92672">=</span> any(data_list)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-an-empty-list">all() with an empty list</h4>
+<h4 id="any-with-an-empty-list">any() with an empty list</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> []
-x <span style="color:#f92672">=</span> all(data_list)
+x <span style="color:#f92672">=</span> any(data_list)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>True
+<pre><code>False
 </code></pre>
 
-<h4 id="all-with-a-set-of-all-true-values">all() with a set of all True values</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {True, True, True}
-x <span style="color:#f92672">=</span> all(data_set)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>True
-</code></pre>
-
-<h4 id="all-with-a-set-of-not-all-true-values">all() with a set of not all True values</h4>
+<h4 id="any-with-the-set-has-true-value">any() with the set has True value</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {True, False, True}
-x <span style="color:#f92672">=</span> all(data_set)
+x <span style="color:#f92672">=</span> any(data_set)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>False
+<pre><code>True
 </code></pre>
 
-<h4 id="all-with-a-set-of-all-false-values">all() with a set of all False values</h4>
+<h4 id="any-with-set-of-all-true-values">any() with set of all True values</h4>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {True, True, True}
+x <span style="color:#f92672">=</span> any(data_set)
+<span style="color:#66d9ef">print</span>(x)</code></pre></div>
+Output:</p>
+
+<pre><code>True
+</code></pre>
+
+<h4 id="any-with-set-of-all-false-values">any() with set of all False values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {False, False, False}
-x <span style="color:#f92672">=</span> all(data_set)
+x <span style="color:#f92672">=</span> any(data_set)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-an-empty-set">all() with an empty set</h4>
+<h4 id="any-with-an-empty-set">any() with an empty set</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {}
-x <span style="color:#f92672">=</span> all(data_set)
+x <span style="color:#f92672">=</span> any(data_set)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>True
+<pre><code>False
 </code></pre>
 
-<h4 id="all-with-a-tuple-of-all-true-values">all() with a tuple of all True values</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (True, True, True)
-x <span style="color:#f92672">=</span> all(data_tuple)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>True
-</code></pre>
-
-<h4 id="all-with-a-tuple-of-not-all-true-values">all() with a tuple of not all True values</h4>
+<h4 id="any-with-the-tuple-has-true-value">any() with the tuple has True value</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (True, True, False)
-x <span style="color:#f92672">=</span> all(data_tuple)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>False
-</code></pre>
-
-<h4 id="all-with-a-tuple-of-all-false-values">all() with a tuple of all False values</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (False, False, False)
-x <span style="color:#f92672">=</span> all(data_tuple)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>False
-</code></pre>
-
-<h4 id="all-with-an-empty-tuple">all() with an empty tuple</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> ()
-x <span style="color:#f92672">=</span> all(data_tuple)
+x <span style="color:#f92672">=</span> any(data_tuple)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
 <pre><code>True
+</code></pre>
+
+<h4 id="any-with-tuple-of-all-true-values">any() with tuple of all True values</h4>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (True, True, True)
+x <span style="color:#f92672">=</span> any(data_tuple)
+<span style="color:#66d9ef">print</span>(x)</code></pre></div>
+Output:</p>
+
+<pre><code>True
+</code></pre>
+
+<h4 id="any-with-tuple-of-all-false-values">any() with tuple of all False values</h4>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (False, False, False)
+x <span style="color:#f92672">=</span> any(data_tuple)
+<span style="color:#66d9ef">print</span>(x)</code></pre></div>
+Output:</p>
+
+<pre><code>False
+</code></pre>
+
+<h4 id="any-with-an-empty-tuple">any() with an empty tuple</h4>
+
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> ()
+x <span style="color:#f92672">=</span> any(data_tuple)
+<span style="color:#66d9ef">print</span>(x)</code></pre></div>
+Output:</p>
+
+<pre><code>False
 </code></pre>
 
 <p>Happy Coding 😊</p>
 
 <h5 id="recommended-posts">Recommended Posts</h5>
 
-<p><a href="https://toricode.com/python-any-function-code-examples/">Python any() Function Code Examples</a></p>
+<p><a href="https://toricode.com/python-all-function-code-examples/">Python all() Function Code Examples</a></p>
 </div>
         </div>
         <div class="col-lg-3">
