@@ -6,10 +6,22 @@
     <description>Recent content on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2019 20:11:02 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2019 22:05:54 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python all() Function Code Examples</title>
+      <link>https://toricode.com/python-all-function-code-examples/</link>
+      <pubDate>Wed, 25 Dec 2019 22:05:54 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-all-function-code-examples/</guid>
+      <description>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.
+all() with list of all True values data_list = [True, True, True] x = all(data_list) print(x) Output:
+True  all() with list of not all True values data_list = [False, True, True] x = all(data_list) print(x) Output:
+False  all() with list of all False values data_list = [False, False, False] x = all(data_list) print(x) Output:</description>
+    </item>
     
     <item>
       <title>Python abs() Function Code Examples</title>
