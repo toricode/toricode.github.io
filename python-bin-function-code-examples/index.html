@@ -4,24 +4,24 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Python abs() Function Code Examples</title>
-    <meta name="title" content="Python abs() Function Code Examples">
-    <meta name="description" content="abs() is a Python built in function to return the absolute value of a number.">
+    <title>Python bin() Function Code Examples</title>
+    <meta name="title" content="Python bin() Function Code Examples">
+    <meta name="description" content="bin() is a Python built in function to return a binary string of an integer number. The return string value has prefix &#39;0b&#39; or &#39; 0b&#39;.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://toricode.com/python-abs-function-code-examples/">
-    <meta property="og:title" content="Python abs() Function Code Examples">
-    <meta property="og:description" content="abs() is a Python built-in function to return the absolute value of a number.">
+    <meta property="og:url" content="https://toricode.com/python-bin-function-code-examples/">
+    <meta property="og:title" content="Python bin() Function Code Examples">
+    <meta property="og:description" content="bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &#39;0b&#39; or &#39;-0b&#39;.">
     
-    <meta property="og:image" content="https://toricode.com/images/python-abs-function-code-examples.png">
+    <meta property="og:image" content="https://toricode.com/images/python-bin-function-code-examples.png">
     
     <meta property="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ToriCodeBlog">
     <meta name="twitter:creator" content="@ToriCodeBlog">
-    <meta name="twitter:url" content="https://toricode.com/python-abs-function-code-examples/">
-    <meta name="twitter:title" content="Python abs() Function Code Examples">
-    <meta name="twitter:description" content="abs() is a Python built-in function to return the absolute value of a number.">
+    <meta name="twitter:url" content="https://toricode.com/python-bin-function-code-examples/">
+    <meta name="twitter:title" content="Python bin() Function Code Examples">
+    <meta name="twitter:description" content="bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &#39;0b&#39; or &#39;-0b&#39;.">
     
-    <meta name="twitter:image" content="https://toricode.com/images/python-abs-function-code-examples.png">
+    <meta name="twitter:image" content="https://toricode.com/images/python-bin-function-code-examples.png">
     
     <link rel="stylesheet" type="text/css" href="https://toricode.com/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="https://toricode.com/css/all.min.css" />
@@ -56,67 +56,57 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9" style="background-color: #FFF;margin-top:20px;">
-            <h2>Python abs() Function Code Examples</h1>
+            <h2>Python bin() Function Code Examples</h1>
             <div>
 
-<p>abs() is a Python built-in function to return the absolute value of a number.</p>
+<p>bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &lsquo;0b&rsquo; or &lsquo;-0b&rsquo;.</p>
 
-<h4 id="example-1-abs-with-negative-interger-number-argument">Example 1 - abs() with negative interger number argument</h4>
+<h4 id="example-1-bin-with-zero-number">Example 1 - bin() with zero number</h4>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> abs(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>)
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> bin(<span style="color:#ae81ff">0</span>)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>5
+<pre><code>0b0
 </code></pre>
 
-<h4 id="example-2-abs-with-positive-interger-number-argument">Example 2 - abs() with positive interger number argument</h4>
+<h4 id="example-2-bin-with-positive-integer-number">Example 2 - bin() with positive integer number</h4>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> abs(<span style="color:#ae81ff">5</span>)
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> bin(<span style="color:#ae81ff">5</span>)
+<span style="color:#66d9ef">print</span>(x)
+
+x <span style="color:#f92672">=</span> bin(<span style="color:#ae81ff">250</span>)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>5
+<pre><code>0b101
+0b11111010
 </code></pre>
 
-<h4 id="example-3-abs-with-0-in-argument">Example 3 - abs() with 0 in argument</h4>
+<h4 id="example-3-bin-with-negative-integer-number">Example 3 - bin() with negative integer number</h4>
 
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> abs(<span style="color:#ae81ff">0</span>)
+<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> bin(<span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>)
+<span style="color:#66d9ef">print</span>(x)
+
+x <span style="color:#f92672">=</span> bin(<span style="color:#f92672">-</span><span style="color:#ae81ff">250</span>)
 <span style="color:#66d9ef">print</span>(x)</code></pre></div>
 Output:</p>
 
-<pre><code>0
-</code></pre>
-
-<h4 id="example-4-abs-with-negative-float-number-argument">Example 4 - abs() with negative float number argument</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> abs(<span style="color:#f92672">-</span><span style="color:#ae81ff">9.5</span>)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>9.5
-</code></pre>
-
-<h4 id="example-5-abs-with-positive-float-number-argument">Example 5 - abs() with positive float number argument</h4>
-
-<p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> abs(<span style="color:#ae81ff">9.5</span>)
-<span style="color:#66d9ef">print</span>(x)</code></pre></div>
-Output:</p>
-
-<pre><code>9.5
+<pre><code>-0b101
+-0b11111010
 </code></pre>
 
 <p>Happy Coding 😊</p>
 
 <h5 id="recommended-posts">Recommended Posts</h5>
 
+<p><a href="https://toricode.com/python-abs-function-code-examples/">Python abs() Function Code Examples</a></p>
+
 <p><a href="https://toricode.com/python-all-function-code-examples/">Python all() Function Code Examples</a></p>
 
 <p><a href="https://toricode.com/python-any-function-code-examples/">Python any() Function Code Examples</a></p>
 
 <p><a href="https://toricode.com/python-ascii-function-code-examples/">Python ascii() Function Code Examples</a></p>
-
-<p><a href="https://toricode.com/python-bin-function-code-examples/">Python bin() Function Code Examples</a></p>
 </div>
         </div>
         <div class="col-lg-3">

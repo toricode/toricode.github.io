@@ -6,10 +6,34 @@
     <description>Recent content in Posts on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Dec 2019 22:57:04 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python bin() Function Code Examples</title>
+      <link>https://toricode.com/python-bin-function-code-examples/</link>
+      <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-bin-function-code-examples/</guid>
+      <description>bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &amp;lsquo;0b&amp;rsquo; or &amp;lsquo;-0b&amp;rsquo;.
+Example 1 - bin() with zero number x = bin(0) print(x) Output:
+0b0  Example 2 - bin() with positive integer number x = bin(5) print(x) x = bin(250) print(x) Output:
+0b101 0b11111010  Example 3 - bin() with negative integer number x = bin(-5) print(x) x = bin(-250) print(x) Output:</description>
+    </item>
+    
+    <item>
+      <title>Python ascii() Function Code Examples</title>
+      <link>https://toricode.com/python-ascii-function-code-examples/</link>
+      <pubDate>Thu, 26 Dec 2019 23:05:04 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-ascii-function-code-examples/</guid>
+      <description>ascii() is a Python built-in function to return a string value which is a printable representation of an object argument and escapse non-ASCII charaters in the return string.
+Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;) print(x) x = ascii(&amp;#39;ɸ&amp;#39;) print(x) Output:
+&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;) print(x) x = ascii(&amp;#39;123&amp;#39;) print(x) Output:
+&#39;abc&#39; &#39;123&#39;  Example 3 - ascii() with Unicode string x = ascii(&amp;#39;Việt Nam&amp;#39;) print(x) x = ascii(&amp;#39;日本&amp;#39;) print(x) x = ascii(&amp;#39;대한민국&amp;#39;) print(x) x = ascii(&amp;#39;中国&amp;#39;) print(x) Output:</description>
+    </item>
     
     <item>
       <title>Python any() Function Code Examples</title>
@@ -18,9 +42,8 @@
       
       <guid>https://toricode.com/python-any-function-code-examples/</guid>
       <description>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.
-any() with the list has True value data_list = [True, False, False] x = any(data_list) print(x) Output:
-True  any() with list of all True values data_list = [True, True, True] x = any(data_list) print(x) Output:
-True  any() with list of all False values data_list = [False, False, False] x = any(data_list) print(x) Output:</description>
+Example 1 - any() with the list has True value data_list = [True, False, False] x = any(data_list) print(x) Output:
+True  Example 2 - any() with list of all True values data_list = [True, True, True] x = any(data_list) print(x) Output:</description>
     </item>
     
     <item>
@@ -30,9 +53,9 @@ True  any() with list of all False values data_list = [False, False, False] x = 
       
       <guid>https://toricode.com/python-all-function-code-examples/</guid>
       <description>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.
-all() with list of all True values data_list = [True, True, True] x = all(data_list) print(x) Output:
-True  all() with list of not all True values data_list = [False, True, True] x = all(data_list) print(x) Output:
-False  all() with list of all False values data_list = [False, False, False] x = all(data_list) print(x) Output:</description>
+Example 1 - all() with list of all True values data_list = [True, True, True] x = all(data_list) print(x) Output:
+True  Example 2 - all() with list of not all True values data_list = [False, True, True] x = all(data_list) print(x) Output:
+False  Example 3 - all() with list of all False values data_list = [False, False, False] x = all(data_list) print(x) Output:</description>
     </item>
     
     <item>
@@ -42,11 +65,10 @@ False  all() with list of all False values data_list = [False, False, False] x =
       
       <guid>https://toricode.com/python-abs-function-code-examples/</guid>
       <description>abs() is a Python built-in function to return the absolute value of a number.
-abs() with negative interger number argument x = abs(-5) print(x) Output:
-5  abs() with positive interger number argument x = abs(5) print(x) Output:
-5  abs() with 0 in argument x = abs(0) print(x) Output:
-0  abs() with negative float number argument x = abs(-9.5) print(x) Output:
-9.5  abs() with positive float number argument x = abs(9.</description>
+Example 1 - abs() with negative interger number argument x = abs(-5) print(x) Output:
+5  Example 2 - abs() with positive interger number argument x = abs(5) print(x) Output:
+5  Example 3 - abs() with 0 in argument x = abs(0) print(x) Output:
+0  Example 4 - abs() with negative float number argument x = abs(-9.</description>
     </item>
     
     <item>

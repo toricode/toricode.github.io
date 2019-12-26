@@ -61,7 +61,7 @@
 
 <p>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.</p>
 
-<h4 id="all-with-list-of-all-true-values">all() with list of all True values</h4>
+<h4 id="example-1-all-with-list-of-all-true-values">Example 1 - all() with list of all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [True, True, True]
 x <span style="color:#f92672">=</span> all(data_list)
@@ -71,7 +71,7 @@ Output:</p>
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-list-of-not-all-true-values">all() with list of not all True values</h4>
+<h4 id="example-2-all-with-list-of-not-all-true-values">Example 2 - all() with list of not all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [False, True, True]
 x <span style="color:#f92672">=</span> all(data_list)
@@ -81,7 +81,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-list-of-all-false-values">all() with list of all False values</h4>
+<h4 id="example-3-all-with-list-of-all-false-values">Example 3 - all() with list of all False values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> [False, False, False]
 x <span style="color:#f92672">=</span> all(data_list)
@@ -91,7 +91,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-an-empty-list">all() with an empty list</h4>
+<h4 id="example-4-all-with-an-empty-list">Example 4 - all() with an empty list</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_list <span style="color:#f92672">=</span> []
 x <span style="color:#f92672">=</span> all(data_list)
@@ -101,7 +101,7 @@ Output:</p>
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-a-set-of-all-true-values">all() with a set of all True values</h4>
+<h4 id="example-5-all-with-a-set-of-all-true-values">Example 5 - all() with a set of all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {True, True, True}
 x <span style="color:#f92672">=</span> all(data_set)
@@ -111,7 +111,7 @@ Output:</p>
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-a-set-of-not-all-true-values">all() with a set of not all True values</h4>
+<h4 id="example-6-all-with-a-set-of-not-all-true-values">Example 6 - all() with a set of not all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {True, False, True}
 x <span style="color:#f92672">=</span> all(data_set)
@@ -121,7 +121,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-a-set-of-all-false-values">all() with a set of all False values</h4>
+<h4 id="example-7-all-with-a-set-of-all-false-values">Example 7 - all() with a set of all False values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {False, False, False}
 x <span style="color:#f92672">=</span> all(data_set)
@@ -131,7 +131,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-an-empty-set">all() with an empty set</h4>
+<h4 id="example-8-all-with-an-empty-set">Example 8 - all() with an empty set</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_set <span style="color:#f92672">=</span> {}
 x <span style="color:#f92672">=</span> all(data_set)
@@ -141,7 +141,7 @@ Output:</p>
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-a-tuple-of-all-true-values">all() with a tuple of all True values</h4>
+<h4 id="example-9-all-with-a-tuple-of-all-true-values">Example 9 - all() with a tuple of all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (True, True, True)
 x <span style="color:#f92672">=</span> all(data_tuple)
@@ -151,7 +151,7 @@ Output:</p>
 <pre><code>True
 </code></pre>
 
-<h4 id="all-with-a-tuple-of-not-all-true-values">all() with a tuple of not all True values</h4>
+<h4 id="example-10-all-with-a-tuple-of-not-all-true-values">Example 10 - all() with a tuple of not all True values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (True, True, False)
 x <span style="color:#f92672">=</span> all(data_tuple)
@@ -161,7 +161,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-a-tuple-of-all-false-values">all() with a tuple of all False values</h4>
+<h4 id="example-11-all-with-a-tuple-of-all-false-values">Example 11 - all() with a tuple of all False values</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> (False, False, False)
 x <span style="color:#f92672">=</span> all(data_tuple)
@@ -171,7 +171,7 @@ Output:</p>
 <pre><code>False
 </code></pre>
 
-<h4 id="all-with-an-empty-tuple">all() with an empty tuple</h4>
+<h4 id="example-12-all-with-an-empty-tuple">Example 12 - all() with an empty tuple</h4>
 
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">data_tuple <span style="color:#f92672">=</span> ()
 x <span style="color:#f92672">=</span> all(data_tuple)
@@ -185,7 +185,13 @@ Output:</p>
 
 <h5 id="recommended-posts">Recommended Posts</h5>
 
+<p><a href="https://toricode.com/python-abs-function-code-examples/">Python abs() Function Code Examples</a></p>
+
 <p><a href="https://toricode.com/python-any-function-code-examples/">Python any() Function Code Examples</a></p>
+
+<p><a href="https://toricode.com/python-ascii-function-code-examples/">Python ascii() Function Code Examples</a></p>
+
+<p><a href="https://toricode.com/python-bin-function-code-examples/">Python bin() Function Code Examples</a></p>
 </div>
         </div>
         <div class="col-lg-3">
