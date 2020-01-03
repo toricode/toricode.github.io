@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Tori Code</title>
+    <title>Pythons on Tori Code</title>
     <link>https://toricode.com/python/</link>
-    <description>Recent content in Python on Tori Code</description>
+    <description>Recent content in Pythons on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
@@ -12,79 +12,79 @@
     
     
     <item>
-      <title>Python bin() Function Code Examples</title>
-      <link>https://toricode.com/python-bin-function-code-examples/</link>
+      <title>bin() Function</title>
+      <link>https://toricode.com/python-bin-function/</link>
       <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
       
-      <guid>https://toricode.com/python-bin-function-code-examples/</guid>
+      <guid>https://toricode.com/python-bin-function/</guid>
       <description>bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &amp;lsquo;0b&amp;rsquo; or &amp;lsquo;-0b&amp;rsquo;.
-Example 1 - bin() with zero number x = bin(0) print(x) Output:
-0b0  Example 2 - bin() with positive integer number x = bin(5) print(x) x = bin(250) print(x) Output:
-0b101 0b11111010  Example 3 - bin() with negative integer number x = bin(-5) print(x) x = bin(-250) print(x) Output:</description>
+Example 1 - bin() with zero number x = bin(0)print(x) Output:
+0b0  Example 2 - bin() with positive integer number x = bin(5)print(x)x = bin(250)print(x) Output:
+0b101 0b11111010  Example 3 - bin() with negative integer number x = bin(-5)print(x)x = bin(-250)print(x) Output:</description>
     </item>
     
     <item>
-      <title>Python ascii() Function Code Examples</title>
-      <link>https://toricode.com/python-ascii-function-code-examples/</link>
+      <title>ascii() Function</title>
+      <link>https://toricode.com/python-ascii-function/</link>
       <pubDate>Thu, 26 Dec 2019 23:05:04 +0700</pubDate>
       
-      <guid>https://toricode.com/python-ascii-function-code-examples/</guid>
+      <guid>https://toricode.com/python-ascii-function/</guid>
       <description>ascii() is a Python built-in function to return a string value which is a printable representation of an object argument and escapse non-ASCII charaters in the return string.
-Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;) print(x) x = ascii(&amp;#39;ɸ&amp;#39;) print(x) Output:
-&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;) print(x) x = ascii(&amp;#39;123&amp;#39;) print(x) Output:
-&#39;abc&#39; &#39;123&#39;  Example 3 - ascii() with Unicode string x = ascii(&amp;#39;Việt Nam&amp;#39;) print(x) x = ascii(&amp;#39;日本&amp;#39;) print(x) x = ascii(&amp;#39;대한민국&amp;#39;) print(x) x = ascii(&amp;#39;中国&amp;#39;) print(x) Output:</description>
+Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;)print(x)x = ascii(&amp;#39;ɸ&amp;#39;)print(x) Output:
+&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;)print(x)x = ascii(&amp;#39;123&amp;#39;)print(x) Output:
+&#39;abc&#39; &#39;123&#39;  Example 3 - ascii() with Unicode string x = ascii(&amp;#39;Việt Nam&amp;#39;)print(x)x = ascii(&amp;#39;日本&amp;#39;)print(x)x = ascii(&amp;#39;대한민국&amp;#39;)print(x)x = ascii(&amp;#39;中国&amp;#39;)print(x) Output:</description>
     </item>
     
     <item>
-      <title>Python any() Function Code Examples</title>
-      <link>https://toricode.com/python-any-function-code-examples/</link>
+      <title>any() Function</title>
+      <link>https://toricode.com/python-any-function/</link>
       <pubDate>Wed, 25 Dec 2019 22:57:04 +0700</pubDate>
       
-      <guid>https://toricode.com/python-any-function-code-examples/</guid>
+      <guid>https://toricode.com/python-any-function/</guid>
       <description>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.
-Example 1 - any() with the list has True value data_list = [True, False, False] x = any(data_list) print(x) Output:
-True  Example 2 - any() with list of all True values data_list = [True, True, True] x = any(data_list) print(x) Output:</description>
+Example 1 - any() with the list has True value data_list = [True, False, False]x = any(data_list)print(x) Output:
+True  Example 2 - any() with list of all True values data_list = [True, True, True]x = any(data_list)print(x) Output:</description>
     </item>
     
     <item>
-      <title>Python all() Function Code Examples</title>
-      <link>https://toricode.com/python-all-function-code-examples/</link>
+      <title>all() Function</title>
+      <link>https://toricode.com/python-all-function/</link>
       <pubDate>Wed, 25 Dec 2019 22:05:54 +0700</pubDate>
       
-      <guid>https://toricode.com/python-all-function-code-examples/</guid>
+      <guid>https://toricode.com/python-all-function/</guid>
       <description>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.
-Example 1 - all() with list of all True values data_list = [True, True, True] x = all(data_list) print(x) Output:
-True  Example 2 - all() with list of not all True values data_list = [False, True, True] x = all(data_list) print(x) Output:
-False  Example 3 - all() with list of all False values data_list = [False, False, False] x = all(data_list) print(x) Output:</description>
+Example 1 - all() with list of all True values data_list = [True, True, True]x = all(data_list)print(x) Output:
+True  Example 2 - all() with list of not all True values data_list = [False, True, True]x = all(data_list)print(x) Output:
+False  Example 3 - all() with list of all False values data_list = [False, False, False]x = all(data_list)print(x) Output:</description>
     </item>
     
     <item>
-      <title>Python abs() Function Code Examples</title>
-      <link>https://toricode.com/python-abs-function-code-examples/</link>
+      <title>abs() Function</title>
+      <link>https://toricode.com/python-abs-function/</link>
       <pubDate>Wed, 25 Dec 2019 20:11:02 +0700</pubDate>
       
-      <guid>https://toricode.com/python-abs-function-code-examples/</guid>
+      <guid>https://toricode.com/python-abs-function/</guid>
       <description>abs() is a Python built-in function to return the absolute value of a number.
-Example 1 - abs() with negative interger number argument x = abs(-5) print(x) Output:
-5  Example 2 - abs() with positive interger number argument x = abs(5) print(x) Output:
-5  Example 3 - abs() with 0 in argument x = abs(0) print(x) Output:
+Example 1 - abs() with negative interger number argument x = abs(-5)print(x) Output:
+5  Example 2 - abs() with positive interger number argument x = abs(5)print(x) Output:
+5  Example 3 - abs() with 0 in argument x = abs(0)print(x) Output:
 0  Example 4 - abs() with negative float number argument x = abs(-9.</description>
     </item>
     
     <item>
-      <title>Serialize Python Object to JSON String</title>
-      <link>https://toricode.com/serialize-python-object-to-json-string/</link>
+      <title>Serialize Object to JSON String</title>
+      <link>https://toricode.com/python-serialize-object-to-json-string/</link>
       <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
       
-      <guid>https://toricode.com/serialize-python-object-to-json-string/</guid>
+      <guid>https://toricode.com/python-serialize-object-to-json-string/</guid>
       <description>In this Python tutorial we will learn how to serialize a Python object into a JSON string and go through different code examples in Python.
 First step we need to import json package in source file. import json
 To serialize a Python object into JSON string we will use json.dumps() method. Below are list of different example of using json.dumps() method.
-Serialize Python dict Object to JSON String user = {&amp;#34;firstName&amp;#34;: &amp;#34;Kathy&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Wells&amp;#34;} json_user = json.</description>
+Serialize Python dict Object to JSON String user = {&amp;#34;firstName&amp;#34;: &amp;#34;Kathy&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Wells&amp;#34;}json_user = json.</description>
     </item>
     
     <item>
-      <title>Python Deserialize JSON File to Object</title>
+      <title>Deserialize JSON File to Object</title>
       <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
       
@@ -92,11 +92,11 @@ Serialize Python dict Object to JSON String user = {&amp;#34;firstName&amp;#34;:
       <description>In this Python tutorial we will learn how to read JSON file content and deserialize to a Python object.
 First step is import json package in your source file. import json
 For example you have the JSON file that stored the list of contacts as below located on your computer at &amp;rsquo;D:\ToriCode\Python\contacts.json&amp;rsquo;
-[ { &amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34; }, { &amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.com&amp;#34; }, { &amp;#34;firstName&amp;#34;: &amp;#34;Jessica&amp;#34;, &amp;#34;lastName&amp;#34;: &amp;#34;Schultz&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;jessica@toricode.</description>
+[{&amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jessica&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Schultz&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jessica@toricode.</description>
     </item>
     
     <item>
-      <title>Python Deserialize JSON String to Object</title>
+      <title>Deserialize JSON String to Object</title>
       <link>https://toricode.com/python-deserialize-json-string-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 21:23:32 +0700</pubDate>
       
@@ -109,7 +109,7 @@ To observe the return value of json.loads() method we print the type of return o
     </item>
     
     <item>
-      <title>Python Write Excel File using xlwt</title>
+      <title>Write Excel File using xlwt</title>
       <link>https://toricode.com/python-write-excel-file-using-xlwt/</link>
       <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
       
@@ -117,12 +117,12 @@ To observe the return value of json.loads() method we print the type of return o
       <description>In this tutorial we will learn how to use xlwt package to write Excel file in Python.
 Install xlwt package Firstly you need to install xlwt package by command below.
 pip install xlwt Create Workbook and Sheet Import xlwt package import xlwt
-First step to write Excel file we need to create workbook and add a new sheet. workbook = xlwt.Workbook() sheet = workbook.add_sheet(&amp;#34;contacts&amp;#34;)
+First step to write Excel file we need to create workbook and add a new sheet. workbook = xlwt.Workbook()sheet = workbook.add_sheet(&amp;#34;contacts&amp;#34;)
 Create cell style Below example code to create style for header cell with bold text and Arial font.</description>
     </item>
     
     <item>
-      <title>Python Read Excel File using xlrd</title>
+      <title>Read Excel File using xlrd</title>
       <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
       <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
       
@@ -134,7 +134,7 @@ Below is Python code example to read sample.xlsx Excel file content and sprint t
     </item>
     
     <item>
-      <title>Python Write Text File</title>
+      <title>Write Text File</title>
       <link>https://toricode.com/python-write-text-file/</link>
       <pubDate>Sun, 22 Dec 2019 14:37:23 +0700</pubDate>
       
@@ -145,14 +145,14 @@ To append to existing file&amp;rsquo;s content we use &amp;lsquo;a&amp;rsquo; fo
     </item>
     
     <item>
-      <title>Python Read Text File</title>
+      <title>Read Text File</title>
       <link>https://toricode.com/python-read-text-file/</link>
       <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
       
       <guid>https://toricode.com/python-read-text-file/</guid>
       <description>In this tutorial we will learn how to use Python to read a text file with different approach of writing code.
 Create test text file First step we need to create a text file named test.txt in the same folder that we will create Python code file and input below text for testing purpose.
-Hello! from toricode.com This file to test Python text file reading. Happy Coding! Read all text of file To read file in Python we use built-in method open().</description>
+Hello! from toricode.comThis file to test Python text file reading.Happy Coding! Read all text of file To read file in Python we use built-in method open().</description>
     </item>
     
   </channel>

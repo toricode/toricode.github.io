@@ -3,32 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://toricode.com/python-bin-function-code-examples/</loc>
+    <loc>https://toricode.com/python-bin-function/</loc>
     <lastmod>2019-12-26T23:34:39+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://toricode.com/python-ascii-function-code-examples/</loc>
+    <loc>https://toricode.com/python-ascii-function/</loc>
     <lastmod>2019-12-26T23:05:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://toricode.com/python-any-function-code-examples/</loc>
+    <loc>https://toricode.com/python-any-function/</loc>
     <lastmod>2019-12-25T22:57:04+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://toricode.com/python-all-function-code-examples/</loc>
+    <loc>https://toricode.com/python-all-function/</loc>
     <lastmod>2019-12-25T22:05:54+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://toricode.com/python-abs-function-code-examples/</loc>
+    <loc>https://toricode.com/python-abs-function/</loc>
     <lastmod>2019-12-25T20:11:02+07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://toricode.com/serialize-python-object-to-json-string/</loc>
+    <loc>https://toricode.com/python-serialize-object-to-json-string/</loc>
     <lastmod>2019-12-23T23:20:31+07:00</lastmod>
   </url>
   
@@ -63,12 +63,42 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/basic/</loc>
+    <lastmod>2019-12-26T23:34:39+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://toricode.com/posts/</loc>
+    <loc>https://toricode.com/tag/deserialize/</loc>
+    <lastmod>2019-12-23T22:07:41+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/excel/</loc>
+    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/file/</loc>
+    <lastmod>2019-12-23T22:07:41+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/json/</loc>
+    <lastmod>2019-12-23T23:20:31+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/python/</loc>
     <lastmod>2019-12-26T23:34:39+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -80,25 +110,7 @@
   </url>
   
   <url>
-    <loc>https://toricode.com/tag/python-built-in/</loc>
-    <lastmod>2019-12-26T23:34:39+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://toricode.com/tag/python-excel/</loc>
-    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://toricode.com/tag/python-file/</loc>
-    <lastmod>2019-12-23T22:07:41+07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://toricode.com/tag/python-json/</loc>
+    <loc>https://toricode.com/tag/serialize/</loc>
     <lastmod>2019-12-23T23:20:31+07:00</lastmod>
     <priority>0</priority>
   </url>
@@ -112,6 +124,18 @@
   <url>
     <loc>https://toricode.com/</loc>
     <lastmod>2019-12-26T23:34:39+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/xlrd/</loc>
+    <lastmod>2019-12-22T20:27:49+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/xlwt/</loc>
+    <lastmod>2019-12-22T23:58:56+07:00</lastmod>
     <priority>0</priority>
   </url>
   
