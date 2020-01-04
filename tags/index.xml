@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jan 2020 13:46:02 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Basic</title>
       <link>https://toricode.com/tag/basic/</link>
-      <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
+      <pubDate>Sat, 04 Jan 2020 13:46:02 +0700</pubDate>
       
       <guid>https://toricode.com/tag/basic/</guid>
       <description></description>
@@ -44,6 +44,15 @@
       <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
       
       <guid>https://toricode.com/tag/file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Http Server</title>
+      <link>https://toricode.com/tag/http-server/</link>
+      <pubDate>Sat, 04 Jan 2020 13:46:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/http-server/</guid>
       <description></description>
     </item>
     
