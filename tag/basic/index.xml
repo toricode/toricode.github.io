@@ -6,10 +6,22 @@
     <description>Recent content in Basic on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Jan 2020 13:46:02 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 15:57:09 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tag/basic/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Reading Text File using fs.readFile()</title>
+      <link>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</link>
+      <pubDate>Sun, 05 Jan 2020 15:57:09 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</guid>
+      <description>Using Node.js built-in file system fs module to read a text file.
+Creating sample text file Firstly creating a sample text file named sample.txt on the same directory of your Node.js code with below content. Welcome to toricode.com Happy Coding!
+
+Reading file with utf8 encoding option Below are example code how to read a text file using fs.readFile() method with utf8 encoding option and log it to the console.</description>
+    </item>
     
     <item>
       <title>Creating HTTP Server using http.createServer()</title>

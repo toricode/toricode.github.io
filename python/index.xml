@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python on Tori Code</title>
+    <title>Pythons on Tori Code</title>
     <link>https://toricode.com/python/</link>
-    <description>Recent content in Python on Tori Code</description>
+    <description>Recent content in Pythons on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
@@ -151,4 +151,4 @@ Hello! from toricode.comThis file to test Python text file reading.</descriptio
     </item>
     
   </channel>
-</rss>s>
+</rss>

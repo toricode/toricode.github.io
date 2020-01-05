@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</loc>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/nodejs-creating-http-server-using-http.createserver/</loc>
     <lastmod>2020-01-04T13:46:02+07:00</lastmod>
   </url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>https://toricode.com/tag/basic/</loc>
-    <lastmod>2020-01-04T13:46:02+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -92,7 +97,7 @@
   
   <url>
     <loc>https://toricode.com/tag/file/</loc>
-    <lastmod>2019-12-23T22:07:41+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,13 +115,13 @@
   
   <url>
     <loc>https://toricode.com/node.js/</loc>
-    <lastmod>2020-01-04T13:46:02+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/nodejs/</loc>
-    <lastmod>2020-01-04T13:46:02+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,13 +145,13 @@
   
   <url>
     <loc>https://toricode.com/tags/</loc>
-    <lastmod>2020-01-04T13:46:02+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2020-01-04T13:46:02+07:00</lastmod>
+    <lastmod>2020-01-05T15:57:09+07:00</lastmod>
     <priority>0</priority>
   </url>
   
