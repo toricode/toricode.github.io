@@ -18,7 +18,7 @@
       
       <guid>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</guid>
       <description>Using Node.js built-in file system fs module to read a text file.
-Creating sample text file Firstly creating a sample text file named sample.txt on the same directory of your Node.js code with below content. Welcome to toricode.com Happy Coding!
+   (adsbygoogle = window.adsbygoogle || []).push({});  Creating sample text file Firstly creating a sample text file named sample.txt on the same directory of your Node.js code with below content. Welcome to toricode.com Happy Coding!
 
 Reading file with utf8 encoding option Below are example code how to read a text file using fs.readFile() method with utf8 encoding option and log it to the console.</description>
     </item>
