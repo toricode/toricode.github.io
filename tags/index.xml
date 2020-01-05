@@ -12,65 +12,83 @@
     
     
     <item>
-      <title>Basic</title>
-      <link>https://toricode.com/tag/basic/</link>
+      <title>Node.js Basic</title>
+      <link>https://toricode.com/tag/node.js-basic/</link>
       <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
       
-      <guid>https://toricode.com/tag/basic/</guid>
+      <guid>https://toricode.com/tag/node.js-basic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deserialize</title>
-      <link>https://toricode.com/tag/deserialize/</link>
-      <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
-      
-      <guid>https://toricode.com/tag/deserialize/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Excel</title>
-      <link>https://toricode.com/tag/excel/</link>
-      <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
-      
-      <guid>https://toricode.com/tag/excel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>File</title>
-      <link>https://toricode.com/tag/file/</link>
+      <title>Node.js File System</title>
+      <link>https://toricode.com/tag/node.js-file-system/</link>
       <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
       
-      <guid>https://toricode.com/tag/file/</guid>
+      <guid>https://toricode.com/tag/node.js-file-system/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Http Server</title>
-      <link>https://toricode.com/tag/http-server/</link>
+      <title>Node.js Http</title>
+      <link>https://toricode.com/tag/node.js-http/</link>
       <pubDate>Sat, 04 Jan 2020 13:46:02 +0700</pubDate>
       
-      <guid>https://toricode.com/tag/http-server/</guid>
+      <guid>https://toricode.com/tag/node.js-http/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Json</title>
-      <link>https://toricode.com/tag/json/</link>
-      <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
+      <title>Python Basic</title>
+      <link>https://toricode.com/tag/python-basic/</link>
+      <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
       
-      <guid>https://toricode.com/tag/json/</guid>
+      <guid>https://toricode.com/tag/python-basic/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Serialize</title>
-      <link>https://toricode.com/tag/serialize/</link>
+      <title>Python Deserialize</title>
+      <link>https://toricode.com/tag/python-deserialize/</link>
+      <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-deserialize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Excel</title>
+      <link>https://toricode.com/tag/python-excel/</link>
+      <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-excel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python File</title>
+      <link>https://toricode.com/tag/python-file/</link>
+      <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-file/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Json</title>
+      <link>https://toricode.com/tag/python-json/</link>
       <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
       
-      <guid>https://toricode.com/tag/serialize/</guid>
+      <guid>https://toricode.com/tag/python-json/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python Serialize</title>
+      <link>https://toricode.com/tag/python-serialize/</link>
+      <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/python-serialize/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Basic on Tori Code</title>
+    <link>https://toricode.com/tag/python-basic/</link>
+    <description>Recent content in Python Basic on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/python-basic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bin() Function</title>
+      <link>https://toricode.com/python-bin-function/</link>
+      <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-bin-function/</guid>
+      <description>bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &amp;lsquo;0b&amp;rsquo; or &amp;lsquo;-0b&amp;rsquo;.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - bin() with zero number x = bin(0)print(x) Output:
+0b0  Example 2 - bin() with positive integer number x = bin(5)print(x)x = bin(250)print(x) Output:
+0b101 0b11111010  Example 3 - bin() with negative integer number x = bin(-5)print(x)x = bin(-250)print(x) Output:</description>
+    </item>
+    
+    <item>
+      <title>ascii() Function</title>
+      <link>https://toricode.com/python-ascii-function/</link>
+      <pubDate>Thu, 26 Dec 2019 23:05:04 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-ascii-function/</guid>
+      <description>ascii() is a Python built-in function to return a string value which is a printable representation of an object argument and escapse non-ASCII charaters in the return string.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;)print(x)x = ascii(&amp;#39;ɸ&amp;#39;)print(x) Output:
+&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;)print(x)x = ascii(&amp;#39;123&amp;#39;)print(x) Output:</description>
+    </item>
+    
+    <item>
+      <title>any() Function</title>
+      <link>https://toricode.com/python-any-function/</link>
+      <pubDate>Wed, 25 Dec 2019 22:57:04 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-any-function/</guid>
+      <description>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - any() with the list has True value data_list = [True, False, False]x = any(data_list)print(x) Output:
+True  Example 2 - any() with list of all True values data_list = [True, True, True]x = any(data_list)print(x) Output:</description>
+    </item>
+    
+    <item>
+      <title>all() Function</title>
+      <link>https://toricode.com/python-all-function/</link>
+      <pubDate>Wed, 25 Dec 2019 22:05:54 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-all-function/</guid>
+      <description>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - all() with list of all True values data_list = [True, True, True]x = all(data_list)print(x) Output:
+True  Example 2 - all() with list of not all True values data_list = [False, True, True]x = all(data_list)print(x) Output:</description>
+    </item>
+    
+    <item>
+      <title>abs() Function</title>
+      <link>https://toricode.com/python-abs-function/</link>
+      <pubDate>Wed, 25 Dec 2019 20:11:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-abs-function/</guid>
+      <description>abs() is a Python built-in function to return the absolute value of a number.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - abs() with negative interger number argument x = abs(-5)print(x) Output:
+5  Example 2 - abs() with positive interger number argument x = abs(5)print(x) Output:
+5  Example 3 - abs() with 0 in argument x = abs(0)print(x) Output:
+0  Example 4 - abs() with negative float number argument x = abs(-9.</description>
+    </item>
+    
+  </channel>
+</rss>

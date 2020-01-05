@@ -1,40 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Deserialize on Tori Code</title>
-    <link>https://toricode.com/tag/deserialize/</link>
-    <description>Recent content in Deserialize on Tori Code</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 23 Dec 2019 22:07:41 +0700</lastBuildDate>
-    
-	<atom:link href="https://toricode.com/tag/deserialize/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Deserialize JSON File to Object</title>
-      <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
-      <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
-      
-      <guid>https://toricode.com/python-deserialize-json-file-to-object/</guid>
-      <description>In this Python tutorial we will learn how to read JSON file content and deserialize to a Python object.
-   (adsbygoogle = window.adsbygoogle || []).push({});  First step is import json package in your source file. import json
-For example you have the JSON file that stored the list of contacts as below located on your computer at &amp;rsquo;D:\ToriCode\Python\contacts.json&amp;rsquo;
-[{&amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.</description>
-    </item>
-    
-    <item>
-      <title>Deserialize JSON String to Object</title>
-      <link>https://toricode.com/python-deserialize-json-string-to-object/</link>
-      <pubDate>Mon, 23 Dec 2019 21:23:32 +0700</pubDate>
-      
-      <guid>https://toricode.com/python-deserialize-json-string-to-object/</guid>
-      <description>In this tutorial we will learn how to use Python built-in package json to deserialize a JSON string to a Python object.
-   (adsbygoogle = window.adsbygoogle || []).push({});  First step you need to import json package. import json
-Declare a JSON string to deserialize, for example: json_data = &amp;#39;{&amp;#34;firstName&amp;#34;: &amp;#34;Larry&amp;#34;, &amp;#34;lastName&amp;#34;:&amp;#34;Scott&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;larry@toricode.com&amp;#34;}&amp;#39;
-Using method json.loads() to deserialize the JSON string. json_object = json.loads(json_data)
-To observe the return value of json.</description>
-    </item>
-    
-  </channel>
-</rss>

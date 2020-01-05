@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python File on Tori Code</title>
+    <link>https://toricode.com/tag/python-file/</link>
+    <description>Recent content in Python File on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Dec 2019 22:07:41 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/python-file/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deserialize JSON File to Object</title>
+      <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
+      <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-deserialize-json-file-to-object/</guid>
+      <description>In this Python tutorial we will learn how to read JSON file content and deserialize to a Python object.
+   (adsbygoogle = window.adsbygoogle || []).push({});  First step is import json package in your source file. import json
+For example you have the JSON file that stored the list of contacts as below located on your computer at &amp;rsquo;D:\ToriCode\Python\contacts.json&amp;rsquo;
+[{&amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.</description>
+    </item>
+    
+    <item>
+      <title>Write Excel File using xlwt</title>
+      <link>https://toricode.com/python-write-excel-file-using-xlwt/</link>
+      <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-write-excel-file-using-xlwt/</guid>
+      <description>In this tutorial we will learn how to use xlwt package to write Excel file in Python.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Install xlwt package Firstly you need to install xlwt package by command below.
+pip install xlwt Create Workbook and Sheet Import xlwt package import xlwt
+First step to write Excel file we need to create workbook and add a new sheet. workbook = xlwt.</description>
+    </item>
+    
+    <item>
+      <title>Read Excel File using xlrd</title>
+      <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
+      <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-read-excel-file-using-xlrd/</guid>
+      <description>In this tutorial we will learn how to read Excel file in Python using xlrd package.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Install xlrd package Firstly you need to install xlrd package by command below.
+pip install xlrd Read Excel Spreadsheet in Python To write code example we assump that you have the sample.xlsx Excel file with content as below in your machine.
+Below is Python code example to read sample.</description>
+    </item>
+    
+    <item>
+      <title>Write Text File</title>
+      <link>https://toricode.com/python-write-text-file/</link>
+      <pubDate>Sun, 22 Dec 2019 14:37:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-write-text-file/</guid>
+      <description>In this tutorial we will learn how to use Python to write text file with different mode to overwrite or append existing file and how to write Unicode charater to a text file.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Append content to the end of existing file with mode &amp;lsquo;a&amp;rsquo; For example we have the file named test.txt with content as below and located in the same folder of your Python code.</description>
+    </item>
+    
+    <item>
+      <title>Read Text File</title>
+      <link>https://toricode.com/python-read-text-file/</link>
+      <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-read-text-file/</guid>
+      <description>In this tutorial we will learn how to use Python to read a text file with different approach of writing code.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create test text file First step we need to create a text file named test.txt in the same folder that we will create Python code file and input below text for testing purpose.
+Hello! from toricode.comThis file to test Python text file reading.</description>
+    </item>
+    
+  </channel>
+</rss>

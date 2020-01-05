@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Node.js Basic on Tori Code</title>
+    <link>https://toricode.com/tag/node.js-basic/</link>
+    <description>Recent content in Node.js Basic on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Jan 2020 19:24:15 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/node.js-basic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Text File using File System fs Module</title>
+      <link>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</link>
+      <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</guid>
+      <description>Using Node.js built-in file system fs module to create and write content to a text file.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Write text to file using fs.appendFile() method The fs.appendFile() method to append text to an existing file.
+It will create a new file if the file does not exist.
+Example code below will create new file named test.txt and append text &amp;lsquo;Welcome to toricode.com&amp;rsquo; to it.</description>
+    </item>
+    
+    <item>
+      <title>Reading Text File using fs.readFile()</title>
+      <link>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</link>
+      <pubDate>Sun, 05 Jan 2020 15:57:09 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</guid>
+      <description>Using Node.js built-in file system fs module to read a text file.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Creating sample text file Firstly creating a sample text file named sample.txt on the same directory of your Node.js code with below content. Welcome to toricode.com Happy Coding!
+
+Reading file with utf8 encoding option Below are example code how to read a text file using fs.readFile() method with utf8 encoding option and log it to the console.</description>
+    </item>
+    
+    <item>
+      <title>Creating HTTP Server using http.createServer()</title>
+      <link>https://toricode.com/nodejs-creating-http-server-using-http.createserver/</link>
+      <pubDate>Sat, 04 Jan 2020 13:46:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-creating-http-server-using-http.createserver/</guid>
+      <description>Using Node.js built-in HTTP module to create a simple HTTP Server that return a text or HTML content when you access via browser.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - Creating HTTP server to return a simple text content var http = require(&amp;#39;http&amp;#39;); var server = http.createServer(); server.on(&amp;#39;request&amp;#39;, function(req, res){ res.writeHead(200, {&amp;#39;content-type&amp;#39;: &amp;#39;text/plain&amp;#39;}); res.write(&amp;#39;Welcome to toricode.com&amp;#39;); res.end(); }); var port = 8080; server.listen(port); server.once(&amp;#39;listening&amp;#39;, function(){ console.</description>
+    </item>
+    
+  </channel>
+</rss>
