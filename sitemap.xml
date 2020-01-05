@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/nodejs-compress-file-into-gzip-format/</loc>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/quick-steps-creating-nodejs-project-using-npm/</loc>
     <lastmod>2020-01-06T01:13:44+07:00</lastmod>
   </url>
@@ -89,7 +94,7 @@
   
   <url>
     <loc>https://toricode.com/node.js/</loc>
-    <lastmod>2020-01-06T01:13:44+07:00</lastmod>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -101,7 +106,7 @@
   
   <url>
     <loc>https://toricode.com/tag/node.js-file-system/</loc>
-    <lastmod>2020-01-05T19:24:15+07:00</lastmod>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -119,7 +124,7 @@
   
   <url>
     <loc>https://toricode.com/nodejs/</loc>
-    <lastmod>2020-01-06T01:13:44+07:00</lastmod>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -185,7 +190,7 @@
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2020-01-06T01:13:44+07:00</lastmod>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -198,6 +203,12 @@
   <url>
     <loc>https://toricode.com/tag/xlwt/</loc>
     <lastmod>2019-12-22T23:58:56+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/zlib/</loc>
+    <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,23 @@
     <description>Recent content in Node.js on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jan 2020 01:13:44 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jan 2020 01:42:32 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/node.js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Node.js Compress File into gzip Format</title>
+      <link>https://toricode.com/nodejs-compress-file-into-gzip-format/</link>
+      <pubDate>Mon, 06 Jan 2020 01:42:32 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-compress-file-into-gzip-format/</guid>
+      <description>Using Node.js built-in fs and zlib modules to compress a file into gzip format.
+   (adsbygoogle = window.adsbygoogle || []).push({});  For example, we have the Document.pdf file as below located at D:\ToriCode\Nodejs directory.
+
+Compress file using fs and zlib modules Below Node.js code example to compress Document.pdf file above to compressed file named Document.pdf.gz
+let fs = require(&amp;#39;fs&amp;#39;); let zlib = require(&amp;#39;zlib&amp;#39;); let gzip = zlib.</description>
+    </item>
     
     <item>
       <title>Quick Steps Creating Node.js Project using npm</title>
