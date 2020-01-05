@@ -6,10 +6,22 @@
     <description>Recent content in Node.js on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2020 15:57:09 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jan 2020 19:24:15 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/node.js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Writing Text File using File System fs Module</title>
+      <link>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</link>
+      <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
+      
+      <guid>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</guid>
+      <description>Using Node.js built-in file system fs module to create and write content to a text file.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Write text to file using fs.appendFile() method The fs.appendFile() method to append text to an existing file.
+It will create a new file if the file does not exist.
+Example code below will create new file named test.txt and append text &amp;lsquo;Welcome to toricode.com&amp;rsquo; to it.</description>
+    </item>
     
     <item>
       <title>Reading Text File using fs.readFile()</title>

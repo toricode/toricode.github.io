@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Node.js Writing Text File using File System fs Module</title>
+        <meta name="title" content="Node.js Writing Text File using File System fs Module">
+    <meta name="description" content="Using Node.js built in file system fs module to create and write content to a text file.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/">
+    <meta property="og:title" content="Node.js Writing Text File using File System fs Module">
+    <meta property="og:description" content="Using Node.js built-in file system fs module to create and write content to a text file.">
+    
+    <meta property="og:image" content="https://toricode.com/images/Tori_Code_Logo.png">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ToriCodeDotCom">
+    <meta name="twitter:creator" content="@ToriCodeDotCom">
+    <meta name="twitter:url" content="https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/">
+    <meta name="twitter:title" content="Node.js Writing Text File using File System fs Module">
+    <meta name="twitter:description" content="Using Node.js built-in file system fs module to create and write content to a text file.">
+    
+    <meta name="twitter:image" content="https://toricode.com/images/Tori_Code_Logo.png">
+    
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/all.min.css" />
+    <link rel="stylesheet" href="https://toricode.com/css/style.min.css?version=2" integrity="" media="screen" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154913268-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154913268-1');
+    </script>
+</head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="https://toricode.com/">
+        <img src="https://toricode.com//images/Tori_Code_Logo.png" height="50" class="d-inline-block align-top" alt="Tori Code">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com/python">Python</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com/nodejs">Node.js</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+<div id="content">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1 article-content">
+            <h1>Node.js Writing Text File using File System fs Module</h1>
+                <a class="badge badge-dark" href="https://toricode.com/tag/basic">Basic</a>
+                <a class="badge badge-dark" href="https://toricode.com/tag/file">File</a>
+            <div>
+
+<p>Using Node.js built-in file system fs module to create and write content to a text file.</p>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4970454579445266"
+     data-ad-slot="9030954625"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h4 id="write-text-to-file-using-fs-appendfile-method">Write text to file using fs.appendFile() method</h4>
+
+<p>The fs.appendFile() method to append text to an existing file.</p>
+
+<p>It will create a new file if the file does not exist.</p>
+
+<p>Example code below will create new file named test.txt and append text &lsquo;Welcome to toricode.com&rsquo; to it.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>);
+
+<span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">appendFile</span>(<span style="color:#e6db74">&#39;test.txt&#39;</span>, <span style="color:#e6db74">&#39;Welcome to toricode.com&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>){
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">err</span>) {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Error!&#39;</span>);
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">err</span>);
+    } <span style="color:#66d9ef">else</span> {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;File Saved!&#39;</span>);
+    }
+});
+</code></pre></div></p>
+
+<p>Save code above to create_file.js file and execute the code.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">node create_file.js
+File Saved!</code></pre></div></p>
+
+<p>After code executed we will get new file named test.txt with content as below.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Welcome to toricode.com</code></pre></div>
+If we execute the code multiple times it will append text to test.txt file.</p>
+
+<p><br></p>
+
+<h4 id="write-text-to-file-using-fs-writefile-method">Write text to file using fs.writeFile() method</h4>
+
+<p>The fs.writeFile() method to override the existing file with a new text content.</p>
+
+<p>It will create a new file if the file does not exist.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>);
+
+<span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">writeFile</span>(<span style="color:#e6db74">&#39;test.txt&#39;</span>, <span style="color:#e6db74">&#39;Welcome to toricode.com&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>){
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">err</span>) {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Error!&#39;</span>);
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">err</span>);
+    } <span style="color:#66d9ef">else</span> {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;File Saved!&#39;</span>);
+    }
+});
+</code></pre></div></p>
+
+<p>Save code above to create_file.js file and execute the code.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">node create_file.js
+File Saved!</code></pre></div></p>
+
+<p>After code executed we will get new file named test.txt with content as below.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Welcome to toricode.com</code></pre></div></p>
+
+<p><br></p>
+
+<h4 id="open-and-write-text-to-file-using-fs-open-and-fs-write-methods">Open and write text to file using fs.open() and fs.write() methods</h4>
+
+<p>The code example below to show you how to use fs.write() method to write data to a file bytes by bytes.</p>
+
+<p>Firstly we need to open file by fs.open() method, the call back function will provide file descriptor <b>fd</b> to use it in fs.write() method.</p>
+
+<p>In order to write text using fs.write() we need to convert string to buffer using Buffer.from() method.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">fs</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">require</span>(<span style="color:#e6db74">&#39;fs&#39;</span>);
+
+<span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">open</span>(<span style="color:#e6db74">&#39;test.txt&#39;</span>, <span style="color:#e6db74">&#39;w&#39;</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>, <span style="color:#a6e22e">fd</span>) {
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">err</span>) {
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#39;Error!&#39;</span>);
+        <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">err</span>);
+    } <span style="color:#66d9ef">else</span> {
+        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">data</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">Buffer</span>.<span style="color:#a6e22e">from</span>(<span style="color:#e6db74">&#39;Welcome to toricode.com&#39;</span>);
+        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">position</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">offset</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+        <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">length</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">data</span>.<span style="color:#a6e22e">length</span>;
+        <span style="color:#a6e22e">fs</span>.<span style="color:#a6e22e">write</span>(<span style="color:#a6e22e">fd</span>, <span style="color:#a6e22e">data</span>, <span style="color:#a6e22e">offset</span>, <span style="color:#a6e22e">length</span>, <span style="color:#a6e22e">position</span>, <span style="color:#66d9ef">function</span>(<span style="color:#a6e22e">err</span>) {
+            <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">err</span>) {
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;Error writing file&#34;</span>);
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">err</span>);
+            } <span style="color:#66d9ef">else</span> {
+                <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;File saved!&#34;</span>);
+            }
+        });
+    }
+});
+</code></pre></div></p>
+
+<p>Execute the code.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">node create_file.js
+File saved!</code></pre></div></p>
+
+<p>The test.txt created
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">Welcome to toricode.com</code></pre></div></p>
+
+<h5 id="recommended-posts">Recommended Posts</h5>
+
+<ul>
+<li><a href="https://toricode.com/nodejs-reading-text-file-using-fs.readfile/">Reading Text File using fs.readFile()</a></li>
+</ul>
+</div>
+        </div>
+    </div>
+</div>
+        </div><footer>
+    <div class="copy-wrapper">
+        <div class="container">
+            <p class="copyright">Copyright &#xA9; 2020 toricode.com. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://toricode.com/js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://toricode.com/js/bootstrap.min.js"></script>
+</body>
+</html>
