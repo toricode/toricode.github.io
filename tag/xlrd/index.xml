@@ -18,9 +18,9 @@
       
       <guid>https://toricode.com/python-read-excel-file-using-xlrd/</guid>
       <description>In this tutorial we will learn how to read Excel file in Python using xlrd package.
-Install xlrd package Firstly you need to install xlrd package by command below.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Install xlrd package Firstly you need to install xlrd package by command below.
 pip install xlrd Read Excel Spreadsheet in Python To write code example we assump that you have the sample.xlsx Excel file with content as below in your machine.
-Below is Python code example to read sample.xlsx Excel file content and sprint the content to terminal.</description>
+Below is Python code example to read sample.</description>
     </item>
     
   </channel>

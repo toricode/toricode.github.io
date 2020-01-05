@@ -18,9 +18,9 @@
       
       <guid>https://toricode.com/python-deserialize-json-file-to-object/</guid>
       <description>In this Python tutorial we will learn how to read JSON file content and deserialize to a Python object.
-First step is import json package in your source file. import json
+   (adsbygoogle = window.adsbygoogle || []).push({});  First step is import json package in your source file. import json
 For example you have the JSON file that stored the list of contacts as below located on your computer at &amp;rsquo;D:\ToriCode\Python\contacts.json&amp;rsquo;
-[{&amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jessica&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Schultz&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jessica@toricode.</description>
+[{&amp;#34;firstName&amp;#34;: &amp;#34;Doris&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Castillo&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;doris@toricode.com&amp;#34;},{&amp;#34;firstName&amp;#34;: &amp;#34;Jerry&amp;#34;,&amp;#34;lastName&amp;#34;: &amp;#34;Fernandez&amp;#34;,&amp;#34;email&amp;#34;: &amp;#34;jerry@toricode.</description>
     </item>
     
     <item>
@@ -30,10 +30,10 @@ For example you have the JSON file that stored the list of contacts as below loc
       
       <guid>https://toricode.com/python-deserialize-json-string-to-object/</guid>
       <description>In this tutorial we will learn how to use Python built-in package json to deserialize a JSON string to a Python object.
-First step you need to import json package. import json
+   (adsbygoogle = window.adsbygoogle || []).push({});  First step you need to import json package. import json
 Declare a JSON string to deserialize, for example: json_data = &amp;#39;{&amp;#34;firstName&amp;#34;: &amp;#34;Larry&amp;#34;, &amp;#34;lastName&amp;#34;:&amp;#34;Scott&amp;#34;, &amp;#34;email&amp;#34;: &amp;#34;larry@toricode.com&amp;#34;}&amp;#39;
 Using method json.loads() to deserialize the JSON string. json_object = json.loads(json_data)
-To observe the return value of json.loads() method we print the type of return object and its data as below.</description>
+To observe the return value of json.</description>
     </item>
     
   </channel>

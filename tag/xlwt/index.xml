@@ -18,10 +18,9 @@
       
       <guid>https://toricode.com/python-write-excel-file-using-xlwt/</guid>
       <description>In this tutorial we will learn how to use xlwt package to write Excel file in Python.
-Install xlwt package Firstly you need to install xlwt package by command below.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Install xlwt package Firstly you need to install xlwt package by command below.
 pip install xlwt Create Workbook and Sheet Import xlwt package import xlwt
-First step to write Excel file we need to create workbook and add a new sheet. workbook = xlwt.Workbook()sheet = workbook.add_sheet(&amp;#34;contacts&amp;#34;)
-Create cell style Below example code to create style for header cell with bold text and Arial font.</description>
+First step to write Excel file we need to create workbook and add a new sheet. workbook = xlwt.</description>
     </item>
     
   </channel>

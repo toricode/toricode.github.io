@@ -18,7 +18,7 @@
       
       <guid>https://toricode.com/nodejs-creating-http-server-using-http.createserver/</guid>
       <description>Using Node.js built-in HTTP module to create a simple HTTP Server that return a text or HTML content when you access via browser.
-Example 1 - Creating HTTP server to return a simple text content var http = require(&amp;#39;http&amp;#39;); var server = http.createServer(); server.on(&amp;#39;request&amp;#39;, function(req, res){ res.writeHead(200, {&amp;#39;content-type&amp;#39;: &amp;#39;text/plain&amp;#39;}); res.write(&amp;#39;Welcome to toricode.com&amp;#39;); res.end(); }); var port = 8080; server.listen(port); server.once(&amp;#39;listening&amp;#39;, function(){ console.log(&amp;#39;The HTTP server started and listening on port %d&amp;#39;, port); });  Save the code to server.</description>
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - Creating HTTP server to return a simple text content var http = require(&amp;#39;http&amp;#39;); var server = http.createServer(); server.on(&amp;#39;request&amp;#39;, function(req, res){ res.writeHead(200, {&amp;#39;content-type&amp;#39;: &amp;#39;text/plain&amp;#39;}); res.write(&amp;#39;Welcome to toricode.com&amp;#39;); res.end(); }); var port = 8080; server.listen(port); server.once(&amp;#39;listening&amp;#39;, function(){ console.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ Example 1 - Creating HTTP server to return a simple text content var http = requ
       
       <guid>https://toricode.com/python-bin-function/</guid>
       <description>bin() is a Python built-in function to return a binary string of an integer number. The return string value has prefix &amp;lsquo;0b&amp;rsquo; or &amp;lsquo;-0b&amp;rsquo;.
-Example 1 - bin() with zero number x = bin(0)print(x) Output:
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - bin() with zero number x = bin(0)print(x) Output:
 0b0  Example 2 - bin() with positive integer number x = bin(5)print(x)x = bin(250)print(x) Output:
 0b101 0b11111010  Example 3 - bin() with negative integer number x = bin(-5)print(x)x = bin(-250)print(x) Output:</description>
     </item>
@@ -40,9 +40,8 @@ Example 1 - bin() with zero number x = bin(0)print(x) Output:
       
       <guid>https://toricode.com/python-ascii-function/</guid>
       <description>ascii() is a Python built-in function to return a string value which is a printable representation of an object argument and escapse non-ASCII charaters in the return string.
-Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;)print(x)x = ascii(&amp;#39;ɸ&amp;#39;)print(x) Output:
-&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;)print(x)x = ascii(&amp;#39;123&amp;#39;)print(x) Output:
-&#39;abc&#39; &#39;123&#39;  Example 3 - ascii() with Unicode string x = ascii(&amp;#39;Việt Nam&amp;#39;)print(x)x = ascii(&amp;#39;日本&amp;#39;)print(x)x = ascii(&amp;#39;대한민국&amp;#39;)print(x)x = ascii(&amp;#39;中国&amp;#39;)print(x) Output:</description>
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;)print(x)x = ascii(&amp;#39;ɸ&amp;#39;)print(x) Output:
+&#39;\xea&#39; &#39;\u0278&#39;  Example 2 - ascii() with ASCII charaters x = ascii(&amp;#39;abc&amp;#39;)print(x)x = ascii(&amp;#39;123&amp;#39;)print(x) Output:</description>
     </item>
     
     <item>
@@ -52,7 +51,7 @@ Example 1 - ascii() with non-ASCII charater x = ascii(&amp;#39;ê&amp;#39;)prin
       
       <guid>https://toricode.com/python-any-function/</guid>
       <description>any() is a Python built-in function to return True if any element of the iterable argument is True. It return False if the iterable argument is empty.
-Example 1 - any() with the list has True value data_list = [True, False, False]x = any(data_list)print(x) Output:
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - any() with the list has True value data_list = [True, False, False]x = any(data_list)print(x) Output:
 True  Example 2 - any() with list of all True values data_list = [True, True, True]x = any(data_list)print(x) Output:</description>
     </item>
     
@@ -63,9 +62,8 @@ True  Example 2 - any() with list of all True values data_list = [True, True, Tr
       
       <guid>https://toricode.com/python-all-function/</guid>
       <description>all() is a Python built-in function to return True if all elements of the iterable argument are True or the iterable argument is empty.
-Example 1 - all() with list of all True values data_list = [True, True, True]x = all(data_list)print(x) Output:
-True  Example 2 - all() with list of not all True values data_list = [False, True, True]x = all(data_list)print(x) Output:
-False  Example 3 - all() with list of all False values data_list = [False, False, False]x = all(data_list)print(x) Output:</description>
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - all() with list of all True values data_list = [True, True, True]x = all(data_list)print(x) Output:
+True  Example 2 - all() with list of not all True values data_list = [False, True, True]x = all(data_list)print(x) Output:</description>
     </item>
     
     <item>
@@ -75,7 +73,7 @@ False  Example 3 - all() with list of all False values data_list = [False, False
       
       <guid>https://toricode.com/python-abs-function/</guid>
       <description>abs() is a Python built-in function to return the absolute value of a number.
-Example 1 - abs() with negative interger number argument x = abs(-5)print(x) Output:
+   (adsbygoogle = window.adsbygoogle || []).push({});  Example 1 - abs() with negative interger number argument x = abs(-5)print(x) Output:
 5  Example 2 - abs() with positive interger number argument x = abs(5)print(x) Output:
 5  Example 3 - abs() with 0 in argument x = abs(0)print(x) Output:
 0  Example 4 - abs() with negative float number argument x = abs(-9.</description>
