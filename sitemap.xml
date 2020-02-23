@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/python-insert-rows-into-sqlite-database/</loc>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/python-creating-sqlite-database-and-table/</loc>
     <lastmod>2020-02-23T16:29:59+07:00</lastmod>
   </url>
@@ -146,7 +151,7 @@
   
   <url>
     <loc>https://toricode.com/python/</loc>
-    <lastmod>2020-02-23T16:29:59+07:00</lastmod>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -188,7 +193,7 @@
   
   <url>
     <loc>https://toricode.com/tag/python-sqlite3/</loc>
-    <lastmod>2020-02-23T16:29:59+07:00</lastmod>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,7 +211,13 @@
   
   <url>
     <loc>https://toricode.com/python/</loc>
-    <lastmod>2020-02-23T16:29:59+07:00</lastmod>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/sqlite/</loc>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -218,7 +229,7 @@
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2020-02-23T16:29:59+07:00</lastmod>
+    <lastmod>2020-02-23T17:41:36+07:00</lastmod>
     <priority>0</priority>
   </url>
   

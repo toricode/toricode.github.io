@@ -6,10 +6,22 @@
     <description>Recent content in Pythons on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2020 16:29:59 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 17:41:36 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Insert Rows into SQLite Database</title>
+      <link>https://toricode.com/python-insert-rows-into-sqlite-database/</link>
+      <pubDate>Sun, 23 Feb 2020 17:41:36 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-insert-rows-into-sqlite-database/</guid>
+      <description>In this article, we’re going to learn how to insert new data rows into SQLite database in Python.
+You can read below post to learn how to create new SQLite database and table:
+ Python Creating SQLite Database and Table  For example, we have a SQLite database stored at D:\ToriCode\db\contacts.db and has table name contacts with 3 column id, first_name, last_name.
+Step 1 - Create connection to a SQLite database The Python code below to initialize the connection to a SQLite database.</description>
+    </item>
     
     <item>
       <title>Python Creating SQLite Database and Table</title>
