@@ -6,10 +6,21 @@
     <description>Recent content in Sqlite on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2020 21:05:03 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 23:04:22 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tag/sqlite/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Delete Data in SQLite Database</title>
+      <link>https://toricode.com/python-delete-data-in-sqlite-database/</link>
+      <pubDate>Sun, 23 Feb 2020 23:04:22 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-delete-data-in-sqlite-database/</guid>
+      <description>In this tutorial, we’re going to learn how to write a Python program to delete a data record from SQLite data table.
+You can read these posts to learn other actions related to SQLite database:
+ Python Creating SQLite Database and Table Python Insert Rows into SQLite Database Python Update Data in SQLite Database Python Select Data Table in SQLite Database  For example, we have a SQLite database located at D:\ToriCode\db\contacts.</description>
+    </item>
     
     <item>
       <title>Python Select Data Table in SQLite Database</title>

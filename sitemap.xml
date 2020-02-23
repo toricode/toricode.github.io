@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/python-delete-data-in-sqlite-database/</loc>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/python-select-data-table-in-sqlite-database/</loc>
     <lastmod>2020-02-23T21:05:03+07:00</lastmod>
   </url>
@@ -161,7 +166,7 @@
   
   <url>
     <loc>https://toricode.com/python/</loc>
-    <lastmod>2020-02-23T21:05:03+07:00</lastmod>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -203,7 +208,7 @@
   
   <url>
     <loc>https://toricode.com/tag/python-sqlite3/</loc>
-    <lastmod>2020-02-23T21:05:03+07:00</lastmod>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -221,13 +226,13 @@
   
   <url>
     <loc>https://toricode.com/python/</loc>
-    <lastmod>2020-02-23T21:05:03+07:00</lastmod>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/tag/sqlite/</loc>
-    <lastmod>2020-02-23T21:05:03+07:00</lastmod>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -239,7 +244,7 @@
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2020-02-23T21:05:03+07:00</lastmod>
+    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Python Delete Data in SQLite Database</title>
+        <meta name="title" content="Python Delete Data in SQLite Database">
+    <meta name="description" content="In this tutorial, we’re going to learn how to write a Python program to delete a data record from SQLite data table.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://toricode.com/python-delete-data-in-sqlite-database/">
+    <meta property="og:title" content="Python Delete Data in SQLite Database">
+    <meta property="og:description" content="In this tutorial, we’re going to learn how to write a Python program to delete a data record from SQLite data table.">
+    
+    <meta property="og:image" content="https://toricode.com/images/Tori_Code_Logo.png">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ToriCodeDotCom">
+    <meta name="twitter:creator" content="@ToriCodeDotCom">
+    <meta name="twitter:url" content="https://toricode.com/python-delete-data-in-sqlite-database/">
+    <meta name="twitter:title" content="Python Delete Data in SQLite Database">
+    <meta name="twitter:description" content="In this tutorial, we’re going to learn how to write a Python program to delete a data record from SQLite data table.">
+    
+    <meta name="twitter:image" content="https://toricode.com/images/Tori_Code_Logo.png">
+    
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://toricode.com/css/all.min.css" />
+    <link rel="stylesheet" href="https://toricode.com/css/style.min.css?version=2" integrity="" media="screen" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154913268-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-154913268-1');
+    </script>
+</head><body><nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="https://toricode.com/">
+        <img src="https://toricode.com//images/Tori_Code_Logo.png" height="50" class="d-inline-block align-top" alt="Tori Code">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com/python">Python</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="https://toricode.com/nodejs">Node.js</a>
+        </li>
+    </ul>
+    </div>
+  </nav>
+<div id="content">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9 article-content">
+            <h1>Python Delete Data in SQLite Database</h1>
+                <a class="badge badge-primary" href='https://toricode.com/python'>Python</a>
+                <a class="badge badge-dark" href="https://toricode.com/tag/python-sqlite3">Python sqlite3</a>
+                <a class="badge badge-dark" href="https://toricode.com/tag/sqlite">sqlite</a>
+            <div>
+
+<p>In this tutorial, we’re going to learn how to write a Python program to delete a data record from SQLite data table.</p>
+
+<p>You can read these posts to learn other actions related to SQLite database:</p>
+
+<ul>
+<li><a href="https://toricode.com/python-creating-sqlite-database-and-table/" target="_blank">Python Creating SQLite Database and Table</a></li>
+<li><a href="https://toricode.com/python-insert-rows-into-sqlite-database/" target="_blank">Python Insert Rows into SQLite Database</a></li>
+<li><a href="https://toricode.com/python-update-data-in-sqlite-database/" target="_blank">Python Update Data in SQLite Database</a></li>
+<li><a href="https://toricode.com/python-select-data-table-in-sqlite-database/" target="_blank">Python Select Data Table in SQLite Database</a></li>
+</ul>
+
+<p>For example, we have a SQLite database located at D:\ToriCode\db\contacts.db with the contacts table as below data.</p>
+
+<p><img src="/images/python-delete-data-in-sqlite-database-before.png" alt="Python Delete Data in SQLite Database" class="img-fluid"></p>
+
+<h4 id="step-1-create-connection-to-the-sqlite-database">Step 1 - Create connection to the SQLite database</h4>
+
+<p>Firstly, we need to create a connection to the SQLite database.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> sqlite3 
+<span style="color:#f92672">from</span> sqlite3 <span style="color:#f92672">import</span> Error
+
+connection <span style="color:#f92672">=</span> None
+<span style="color:#66d9ef">try</span>:
+    connection <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74">&#39;D:\ToriCode\db\contacts.db&#39;</span>)
+<span style="color:#66d9ef">except</span> Error <span style="color:#66d9ef">as</span> e:
+    <span style="color:#66d9ef">print</span>(e)
+<span style="color:#66d9ef">finally</span>:
+    <span style="color:#66d9ef">if</span> connection:
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Connect to database successfully.&#39;</span>)</code></pre></div></p>
+
+<h4 id="step-2-execute-the-delete-sql-script-to-delete-a-sqlite-data-row">Step 2- Execute the Delete SQL script to delete a SQLite data row</h4>
+
+<p>This step to implement a Python function to delete a record by its id column.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">delete_contact_by_id</span>(conn, id):
+    sql_delete <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;&#39; DELETE FROM contacts 
+</span><span style="color:#e6db74">        WHERE id = ?
+</span><span style="color:#e6db74">    &#39;&#39;&#39;</span>
+    <span style="color:#66d9ef">try</span>:
+        cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+        cursor<span style="color:#f92672">.</span>execute(sql_delete, (id,))
+        connection<span style="color:#f92672">.</span>commit()
+    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+        <span style="color:#66d9ef">print</span>(e)
+    <span style="color:#66d9ef">finally</span>: 
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Execute Delete SQL successfully.&#39;</span>)</code></pre></div></p>
+
+<p>Execute Python function above to delete record with id 2.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">delete_contact_by_id(connection, <span style="color:#ae81ff">2</span>)
+
+connection<span style="color:#f92672">.</span>close()</code></pre></div></p>
+
+<p>Complete Python program code.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> sqlite3 
+<span style="color:#f92672">from</span> sqlite3 <span style="color:#f92672">import</span> Error
+
+connection <span style="color:#f92672">=</span> None
+<span style="color:#66d9ef">try</span>:
+    connection <span style="color:#f92672">=</span> sqlite3<span style="color:#f92672">.</span>connect(<span style="color:#e6db74">&#39;D:\ToriCode\db\contacts.db&#39;</span>)
+<span style="color:#66d9ef">except</span> Error <span style="color:#66d9ef">as</span> e:
+    <span style="color:#66d9ef">print</span>(e)
+<span style="color:#66d9ef">finally</span>:
+    <span style="color:#66d9ef">if</span> connection:
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Connect to database successfully.&#39;</span>)
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">delete_contact_by_id</span>(conn, id):
+    sql_delete <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;&#39; DELETE FROM contacts 
+</span><span style="color:#e6db74">        WHERE id = ?
+</span><span style="color:#e6db74">    &#39;&#39;&#39;</span>
+    <span style="color:#66d9ef">try</span>:
+        cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+        cursor<span style="color:#f92672">.</span>execute(sql_delete, (id,))
+        connection<span style="color:#f92672">.</span>commit()
+    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
+        <span style="color:#66d9ef">print</span>(e)
+    <span style="color:#66d9ef">finally</span>: 
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Execute Delete SQL successfully.&#39;</span>)
+
+delete_contact_by_id(connection, <span style="color:#ae81ff">2</span>)
+
+connection<span style="color:#f92672">.</span>close()</code></pre></div></p>
+
+<p>Output:</p>
+
+<pre><code>Connect to database successfully.
+Execute Delete SQL successfully.
+</code></pre>
+
+<p>Below is the contacts table data after execute the Python program above.</p>
+
+<p><img src="/images/python-delete-data-in-sqlite-database-after.png" alt="Python Delete Data in SQLite Database after delete" class="img-fluid"></p>
+</div>
+        </div>
+        <div class="col-lg-3">
+            
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4970454579445266"
+                data-ad-slot="3432811884"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-4970454579445266"
+                data-ad-slot="4311328026"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </div>
+</div>
+        </div><footer>
+    <div class="copy-wrapper">
+        <div class="container">
+            <p class="copyright">Copyright &#xA9; 2020 toricode.com. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://toricode.com/js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://toricode.com/js/bootstrap.min.js"></script>
+</body>
+</html>
