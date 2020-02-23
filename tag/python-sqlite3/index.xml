@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python Sqlite3 on Tori Code</title>
+    <link>https://toricode.com/tag/python-sqlite3/</link>
+    <description>Recent content in Python Sqlite3 on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Feb 2020 16:29:59 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/python-sqlite3/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Python Creating SQLite Database and Table</title>
+      <link>https://toricode.com/python-creating-sqlite-database-and-table/</link>
+      <pubDate>Sun, 23 Feb 2020 16:29:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-creating-sqlite-database-and-table/</guid>
+      <description>In this article, we’re going to learn how to create a new SQLite 3 database in Python program. And then execute a SQL script to create a new data table on that new database.
+Step 1 - Creating new SQLite database The Python code below to create a new SQLite 3 database file and saved it to D:\ToriCode\db folder named contacts.db import sqlite3 from sqlite3 import Error connection = None try: connection = sqlite3.</description>
+    </item>
+    
+  </channel>
+</rss>
