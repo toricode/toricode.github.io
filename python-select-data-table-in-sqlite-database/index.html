@@ -4,22 +4,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Python Update Data in SQLite Database</title>
-        <meta name="title" content="Python Update Data in SQLite Database">
-    <meta name="description" content="In this article, we’re going to learn how to write code in Python to update a data row of SQLite database table.">
+        <title>Python Select Data Table in SQLite Database</title>
+        <meta name="title" content="Python Select Data Table in SQLite Database">
+    <meta name="description" content="In this tutorial, we’re going to learn how to implement a Python program to select data rows from a SQLite data table.">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://toricode.com/python-update-data-in-sqlite-database/">
-    <meta property="og:title" content="Python Update Data in SQLite Database">
-    <meta property="og:description" content="In this article, we’re going to learn how to write code in Python to update a data row of SQLite database table.">
+    <meta property="og:url" content="https://toricode.com/python-select-data-table-in-sqlite-database/">
+    <meta property="og:title" content="Python Select Data Table in SQLite Database">
+    <meta property="og:description" content="In this tutorial, we’re going to learn how to implement a Python program to select data rows from a SQLite data table.">
     
     <meta property="og:image" content="https://toricode.com/images/Tori_Code_Logo.png">
     
     <meta property="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@ToriCodeDotCom">
     <meta name="twitter:creator" content="@ToriCodeDotCom">
-    <meta name="twitter:url" content="https://toricode.com/python-update-data-in-sqlite-database/">
-    <meta name="twitter:title" content="Python Update Data in SQLite Database">
-    <meta name="twitter:description" content="In this article, we’re going to learn how to write code in Python to update a data row of SQLite database table.">
+    <meta name="twitter:url" content="https://toricode.com/python-select-data-table-in-sqlite-database/">
+    <meta name="twitter:title" content="Python Select Data Table in SQLite Database">
+    <meta name="twitter:description" content="In this tutorial, we’re going to learn how to implement a Python program to select data rows from a SQLite data table.">
     
     <meta name="twitter:image" content="https://toricode.com/images/Tori_Code_Logo.png">
     
@@ -56,28 +56,29 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-9 article-content">
-            <h1>Python Update Data in SQLite Database</h1>
+            <h1>Python Select Data Table in SQLite Database</h1>
                 <a class="badge badge-primary" href='https://toricode.com/python'>Python</a>
                 <a class="badge badge-dark" href="https://toricode.com/tag/python-sqlite3">Python sqlite3</a>
                 <a class="badge badge-dark" href="https://toricode.com/tag/sqlite">sqlite</a>
             <div>
 
-<p>In this article, we’re going to learn how to write code in Python to update a data row of SQLite database table.</p>
+<p>In this tutorial, we’re going to learn how to implement a Python program to select data rows from a SQLite data table.</p>
 
-<p>You can read below posts to learn how to create new SQLite database and insert data to a table:</p>
+<p>You can read these posts to learn other actions related to SQLite database:</p>
 
 <ul>
 <li><a href="https://toricode.com/python-creating-sqlite-database-and-table/" target="_blank">Python Creating SQLite Database and Table</a></li>
 <li><a href="https://toricode.com/python-insert-rows-into-sqlite-database/" target="_blank">Python Insert Rows into SQLite Database</a></li>
+<li><a href="https://toricode.com/python-update-data-in-sqlite-database/" target="_blank">Python Update Data in SQLite Database</a></li>
 </ul>
 
-<p>For example, we have the SQLite database located at D:\ToriCode\db\contacts.db with the <strong>contacts</strong> table as below data.</p>
+<p>For example, we have a SQLite database located at D:\ToriCode\db\contacts.db with the <strong>contacts</strong> table as below data.</p>
 
-<p><img src="/images/python-update-data-in-sqlite-database-before.png" alt="Python Update Data in SQLite Database" class="img-fluid"></p>
+<p><img src="/images/python-select-data-table-in-sqlite-database.png" alt="Python Select Data Table in SQLite Database" class="img-fluid"></p>
 
-<h4 id="step-1-create-connection-to-existing-sqlite-database">Step 1 - Create Connection to existing SQLite database</h4>
+<h4 id="step-1-create-connection-to-an-existing-sqlite-database">Step 1 - Create connection to an existing SQLite database</h4>
 
-<p>Firstly, we need to create a connection to the SQLite database.
+<p>In order to execute a select query we need to create a connection object as below Python code.
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> sqlite3 
 <span style="color:#f92672">from</span> sqlite3 <span style="color:#f92672">import</span> Error
 
@@ -90,27 +91,34 @@ connection <span style="color:#f92672">=</span> None
     <span style="color:#66d9ef">if</span> connection:
         <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Connect to database successfully.&#39;</span>)</code></pre></div></p>
 
-<h4 id="step-2-execute-update-sql-script-to-update-sqlite-data-row">Step 2 - Execute Update SQL script to update SQLite data row</h4>
+<h4 id="step-2-select-a-row-in-sqlite-data-table-by-id-column">Step 2 - Select a row in SQLite data table by id column</h4>
 
-<p>Below Python code to implement a function to update contacts row.
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_contact</span>(conn, contact):
-    sql_update <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;&#39; UPDATE contacts 
-</span><span style="color:#e6db74">        SET first_name = ?,
-</span><span style="color:#e6db74">            last_name = ?
-</span><span style="color:#e6db74">        WHERE id = ?
-</span><span style="color:#e6db74">    &#39;&#39;&#39;</span>
-    <span style="color:#66d9ef">try</span>:
-        cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
-        cursor<span style="color:#f92672">.</span>execute(sql_update, contact)
-        connection<span style="color:#f92672">.</span>commit()
-    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
-        <span style="color:#66d9ef">print</span>(e)
-    <span style="color:#66d9ef">finally</span>: 
-        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Execute Update SQL successfully.&#39;</span>)</code></pre></div></p>
+<p>Implement the Python function to select contacts record by id.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">select_by_id</span>(conn, id):
+    sql_select_by_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;SELECT * FROM contacts WHERE id=?&#39;</span>
+    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+    cursor<span style="color:#f92672">.</span>execute(sql_select_by_id, (id,))
+    rows <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchall()
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> rows:
+        <span style="color:#66d9ef">print</span>(row)</code></pre></div></p>
 
-<p>Then we write code invoke the update_contact function above to update contacts row where id is 3.
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">contact <span style="color:#f92672">=</span> (<span style="color:#e6db74">&#39;Kealan&#39;</span>, <span style="color:#e6db74">&#39;Parker&#39;</span>, <span style="color:#ae81ff">3</span>)
-update_contact(connection, contact)
+<h4 id="step-3-select-all-data-rows-in-sqlite-data-table">Step 3 - Select all data rows in SQLite data table</h4>
+
+<p>Implement the Python function to select all data in the contact table.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">select_all</span>(conn):
+    sql_select_all <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;SELECT * FROM contacts&#39;</span>
+    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+    cursor<span style="color:#f92672">.</span>execute(sql_select_all)
+    rows <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchall()
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> rows:
+        <span style="color:#66d9ef">print</span>(row)</code></pre></div></p>
+
+<p>Below example code to execute function above to select data.
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Select by id = 2, result:&#39;</span>)
+select_by_id(connection, <span style="color:#ae81ff">2</span>)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Select all rows in contacts table, result:&#39;</span>)
+select_all(connection)
 
 connection<span style="color:#f92672">.</span>close()</code></pre></div></p>
 
@@ -127,34 +135,41 @@ connection <span style="color:#f92672">=</span> None
     <span style="color:#66d9ef">if</span> connection:
         <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Connect to database successfully.&#39;</span>)
 
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">update_contact</span>(conn, contact):
-    sql_update <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;&#39; UPDATE contacts 
-</span><span style="color:#e6db74">        SET first_name = ?,
-</span><span style="color:#e6db74">            last_name = ?
-</span><span style="color:#e6db74">        WHERE id = ?
-</span><span style="color:#e6db74">    &#39;&#39;&#39;</span>
-    <span style="color:#66d9ef">try</span>:
-        cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
-        cursor<span style="color:#f92672">.</span>execute(sql_update, contact)
-        connection<span style="color:#f92672">.</span>commit()
-    <span style="color:#66d9ef">except</span> <span style="color:#a6e22e">Exception</span> <span style="color:#66d9ef">as</span> e:
-        <span style="color:#66d9ef">print</span>(e)
-    <span style="color:#66d9ef">finally</span>: 
-        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Execute Update SQL successfully.&#39;</span>)
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">select_by_id</span>(conn, id):
+    sql_select_by_id <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;SELECT * FROM contacts WHERE id=?&#39;</span>
+    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+    cursor<span style="color:#f92672">.</span>execute(sql_select_by_id, (id,))
+    rows <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchall()
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> rows:
+        <span style="color:#66d9ef">print</span>(row)
 
-contact <span style="color:#f92672">=</span> (<span style="color:#e6db74">&#39;Kealan&#39;</span>, <span style="color:#e6db74">&#39;Parker&#39;</span>, <span style="color:#ae81ff">3</span>)
-update_contact(connection, contact)
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">select_all</span>(conn):
+    sql_select_all <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;SELECT * FROM contacts&#39;</span>
+    cursor <span style="color:#f92672">=</span> conn<span style="color:#f92672">.</span>cursor()
+    cursor<span style="color:#f92672">.</span>execute(sql_select_all)
+    rows <span style="color:#f92672">=</span> cursor<span style="color:#f92672">.</span>fetchall()
+    <span style="color:#66d9ef">for</span> row <span style="color:#f92672">in</span> rows:
+        <span style="color:#66d9ef">print</span>(row)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Select by id = 2, result:&#39;</span>)
+select_by_id(connection, <span style="color:#ae81ff">2</span>)
+
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">Select all rows in contacts table, result:&#39;</span>)
+select_all(connection)
 
 connection<span style="color:#f92672">.</span>close()</code></pre></div>
 Output:</p>
 
 <pre><code>Connect to database successfully.
-Execute Update SQL successfully.
+Select by id = 2, result:
+(2, 'Alan', 'Whitaker')
+
+Select all rows in contacts table, result:
+(1, 'Nancy', 'Harwood')
+(2, 'Alan', 'Whitaker')
+(3, 'Kealan', 'Parker')
+(4, 'Marion', 'Paul')
 </code></pre>
-
-<p>After executing the Python program above, we will get the contacts data table to be updated as below.</p>
-
-<p><img src="/images/python-update-data-in-sqlite-database-after.png" alt="Python Update Data in SQLite Database after updated" class="img-fluid"></p>
 </div>
         </div>
         <div class="col-lg-3">

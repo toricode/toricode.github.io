@@ -6,10 +6,21 @@
     <description>Recent content in Sqlite on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Feb 2020 20:24:17 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 21:05:03 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tag/sqlite/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Python Select Data Table in SQLite Database</title>
+      <link>https://toricode.com/python-select-data-table-in-sqlite-database/</link>
+      <pubDate>Sun, 23 Feb 2020 21:05:03 +0700</pubDate>
+      
+      <guid>https://toricode.com/python-select-data-table-in-sqlite-database/</guid>
+      <description>In this tutorial, we’re going to learn how to implement a Python program to select data rows from a SQLite data table.
+You can read these posts to learn other actions related to SQLite database:
+ Python Creating SQLite Database and Table Python Insert Rows into SQLite Database Python Update Data in SQLite Database  For example, we have a SQLite database located at D:\ToriCode\db\contacts.db with the contacts table as below data.</description>
+    </item>
     
     <item>
       <title>Python Update Data in SQLite Database</title>
