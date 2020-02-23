@@ -6,10 +6,21 @@
     <description>Recent content in Pythons on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 23:34:39 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 23 Feb 2020 14:08:39 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Measure Execution Time of Python Code</title>
+      <link>https://toricode.com/measure-execution-time-of-python-code/</link>
+      <pubDate>Sun, 23 Feb 2020 14:08:39 +0700</pubDate>
+      
+      <guid>https://toricode.com/measure-execution-time-of-python-code/</guid>
+      <description>In this article we’re going to learn how to calculate the execution time of your Python code with different approaches in Python.
+For example, we need to test the speed of code snippet below: total = 0.0 for i in range(1000000): total += i^2
+Approach 1 - Using timeit module With small code snippets we can use timeit module. import timeit code_to_measure = &amp;#34;&amp;#34;&amp;#34; total = 0.0 for i in range(1000000): total += i^2 &amp;#34;&amp;#34;&amp;#34; elapsed_time = timeit.</description>
+    </item>
     
     <item>
       <title>bin() Function</title>
