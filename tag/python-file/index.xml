@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Deserialize JSON File to Object</title>
+      <title>Python Deserialize JSON File to Object</title>
       <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
       
@@ -24,7 +24,7 @@ For example you have the JSON file that stored the list of contacts as below loc
     </item>
     
     <item>
-      <title>Write Excel File using xlwt</title>
+      <title>Python Write Excel File using xlwt</title>
       <link>https://toricode.com/python-write-excel-file-using-xlwt/</link>
       <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
       
@@ -36,7 +36,7 @@ First step to write Excel file we need to create workbook and add a new sheet. w
     </item>
     
     <item>
-      <title>Read Excel File using xlrd</title>
+      <title>Python Read Excel File using xlrd</title>
       <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
       <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
       
@@ -48,7 +48,7 @@ Below is Python code example to read sample.</description>
     </item>
     
     <item>
-      <title>Write Text File</title>
+      <title>Python Write Text File</title>
       <link>https://toricode.com/python-write-text-file/</link>
       <pubDate>Sun, 22 Dec 2019 14:37:23 +0700</pubDate>
       
@@ -58,7 +58,7 @@ Below is Python code example to read sample.</description>
     </item>
     
     <item>
-      <title>Read Text File</title>
+      <title>Python Read Text File</title>
       <link>https://toricode.com/python-read-text-file/</link>
       <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
       

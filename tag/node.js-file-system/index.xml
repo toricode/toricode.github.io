@@ -25,7 +25,7 @@ let fs = require(&amp;#39;fs&amp;#39;); let zlib = require(&amp;#39;zlib&amp;#39
     </item>
     
     <item>
-      <title>Writing Text File using File System fs Module</title>
+      <title>Node.js Writing Text File using File System fs Module</title>
       <link>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</link>
       <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
       
@@ -37,7 +37,7 @@ Example code below will create new file named test.txt and append text &amp;lsqu
     </item>
     
     <item>
-      <title>Reading Text File using fs.readFile()</title>
+      <title>Node.js Reading Text File using fs.readFile()</title>
       <link>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</link>
       <pubDate>Sun, 05 Jan 2020 15:57:09 +0700</pubDate>
       

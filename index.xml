@@ -103,7 +103,7 @@ Step 2 - Using npm tool to create new empty project D:\ToriCode\Nodejs\webapp&am
     </item>
     
     <item>
-      <title>Writing Text File using File System fs Module</title>
+      <title>Node.js Writing Text File using File System fs Module</title>
       <link>https://toricode.com/nodejs-writing-text-file-using-file-system-fs-module/</link>
       <pubDate>Sun, 05 Jan 2020 19:24:15 +0700</pubDate>
       
@@ -115,7 +115,7 @@ Example code below will create new file named test.txt and append text &amp;lsqu
     </item>
     
     <item>
-      <title>Reading Text File using fs.readFile()</title>
+      <title>Node.js Reading Text File using fs.readFile()</title>
       <link>https://toricode.com/nodejs-reading-text-file-using-fs.readfile/</link>
       <pubDate>Sun, 05 Jan 2020 15:57:09 +0700</pubDate>
       
@@ -127,7 +127,7 @@ Reading file with utf8 encoding option Below are example code how to read a text
     </item>
     
     <item>
-      <title>Creating HTTP Server using http.createServer()</title>
+      <title>Node.js Creating HTTP Server using http.createServer()</title>
       <link>https://toricode.com/nodejs-creating-http-server-using-http.createserver/</link>
       <pubDate>Sat, 04 Jan 2020 13:46:02 +0700</pubDate>
       
@@ -137,7 +137,7 @@ Reading file with utf8 encoding option Below are example code how to read a text
     </item>
     
     <item>
-      <title>bin() Function</title>
+      <title>Python bin() Function</title>
       <link>https://toricode.com/python-bin-function/</link>
       <pubDate>Thu, 26 Dec 2019 23:34:39 +0700</pubDate>
       
@@ -149,7 +149,7 @@ Reading file with utf8 encoding option Below are example code how to read a text
     </item>
     
     <item>
-      <title>ascii() Function</title>
+      <title>Python ascii() Function</title>
       <link>https://toricode.com/python-ascii-function/</link>
       <pubDate>Thu, 26 Dec 2019 23:05:04 +0700</pubDate>
       
@@ -160,7 +160,7 @@ Reading file with utf8 encoding option Below are example code how to read a text
     </item>
     
     <item>
-      <title>any() Function</title>
+      <title>Python any() Function</title>
       <link>https://toricode.com/python-any-function/</link>
       <pubDate>Wed, 25 Dec 2019 22:57:04 +0700</pubDate>
       
@@ -171,7 +171,7 @@ True  Example 2 - any() with list of all True values data_list = [True, True, Tr
     </item>
     
     <item>
-      <title>all() Function</title>
+      <title>Python all() Function</title>
       <link>https://toricode.com/python-all-function/</link>
       <pubDate>Wed, 25 Dec 2019 22:05:54 +0700</pubDate>
       
@@ -182,7 +182,7 @@ True  Example 2 - all() with list of not all True values data_list = [False, Tru
     </item>
     
     <item>
-      <title>abs() Function</title>
+      <title>Python abs() Function</title>
       <link>https://toricode.com/python-abs-function/</link>
       <pubDate>Wed, 25 Dec 2019 20:11:02 +0700</pubDate>
       
@@ -195,7 +195,7 @@ True  Example 2 - all() with list of not all True values data_list = [False, Tru
     </item>
     
     <item>
-      <title>Serialize Object to JSON String</title>
+      <title>Python Serialize Object to JSON String</title>
       <link>https://toricode.com/python-serialize-object-to-json-string/</link>
       <pubDate>Mon, 23 Dec 2019 23:20:31 +0700</pubDate>
       
@@ -206,7 +206,7 @@ To serialize a Python object into JSON string we will use json.dumps() method. B
     </item>
     
     <item>
-      <title>Deserialize JSON File to Object</title>
+      <title>Python Deserialize JSON File to Object</title>
       <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
       
@@ -218,7 +218,7 @@ For example you have the JSON file that stored the list of contacts as below loc
     </item>
     
     <item>
-      <title>Deserialize JSON String to Object</title>
+      <title>Python Deserialize JSON String to Object</title>
       <link>https://toricode.com/python-deserialize-json-string-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 21:23:32 +0700</pubDate>
       
@@ -231,7 +231,7 @@ To observe the return value of json.</description>
     </item>
     
     <item>
-      <title>Write Excel File using xlwt</title>
+      <title>Python Write Excel File using xlwt</title>
       <link>https://toricode.com/python-write-excel-file-using-xlwt/</link>
       <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
       
@@ -243,7 +243,7 @@ First step to write Excel file we need to create workbook and add a new sheet. w
     </item>
     
     <item>
-      <title>Read Excel File using xlrd</title>
+      <title>Python Read Excel File using xlrd</title>
       <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
       <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
       
@@ -255,7 +255,7 @@ Below is Python code example to read sample.</description>
     </item>
     
     <item>
-      <title>Write Text File</title>
+      <title>Python Write Text File</title>
       <link>https://toricode.com/python-write-text-file/</link>
       <pubDate>Sun, 22 Dec 2019 14:37:23 +0700</pubDate>
       
@@ -265,7 +265,7 @@ Below is Python code example to read sample.</description>
     </item>
     
     <item>
-      <title>Read Text File</title>
+      <title>Python Read Text File</title>
       <link>https://toricode.com/python-read-text-file/</link>
       <pubDate>Sat, 21 Dec 2019 22:37:34 +0700</pubDate>
       

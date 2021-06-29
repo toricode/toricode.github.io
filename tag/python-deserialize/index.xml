@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Deserialize JSON File to Object</title>
+      <title>Python Deserialize JSON File to Object</title>
       <link>https://toricode.com/python-deserialize-json-file-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 22:07:41 +0700</pubDate>
       
@@ -24,7 +24,7 @@ For example you have the JSON file that stored the list of contacts as below loc
     </item>
     
     <item>
-      <title>Deserialize JSON String to Object</title>
+      <title>Python Deserialize JSON String to Object</title>
       <link>https://toricode.com/python-deserialize-json-string-to-object/</link>
       <pubDate>Mon, 23 Dec 2019 21:23:32 +0700</pubDate>
       

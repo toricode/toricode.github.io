@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Write Excel File using xlwt</title>
+      <title>Python Write Excel File using xlwt</title>
       <link>https://toricode.com/python-write-excel-file-using-xlwt/</link>
       <pubDate>Sun, 22 Dec 2019 23:58:56 +0700</pubDate>
       
@@ -24,7 +24,7 @@ First step to write Excel file we need to create workbook and add a new sheet. w
     </item>
     
     <item>
-      <title>Read Excel File using xlrd</title>
+      <title>Python Read Excel File using xlrd</title>
       <link>https://toricode.com/python-read-excel-file-using-xlrd/</link>
       <pubDate>Sun, 22 Dec 2019 20:27:49 +0700</pubDate>
       
