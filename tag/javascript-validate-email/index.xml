@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Validate Email on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-validate-email/</link>
+    <description>Recent content in Javascript Validate Email on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Jun 2021 23:42:23 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-validate-email/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript simple email validation using check-more-types library</title>
+      <link>https://toricode.com/javascript-simple-email-validation-using-check-more-types/</link>
+      <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-simple-email-validation-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to simply validate an email address using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.adsbygoogle || []).push({});  How to validate email address in JavaScript In the following JavaScript code we show you how to use the check-more-types library to check if an email address is valid or not.</description>
+    </item>
+    
+  </channel>
+</rss>

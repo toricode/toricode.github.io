@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/javascript-simple-email-validation-using-check-more-types/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/python-delete-data-in-sqlite-database/</loc>
     <lastmod>2020-02-23T23:04:22+07:00</lastmod>
   </url>
@@ -123,6 +128,36 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/check-more-types/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-email/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-email/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript/</loc>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/node.js/</loc>
     <lastmod>2020-01-06T01:42:32+07:00</lastmod>
     <priority>0</priority>
@@ -238,13 +273,13 @@
   
   <url>
     <loc>https://toricode.com/tags/</loc>
-    <lastmod>2020-01-05T19:24:15+07:00</lastmod>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2020-02-23T23:04:22+07:00</lastmod>
+    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jan 2020 19:24:15 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jun 2021 23:42:23 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Check More Types</title>
+      <link>https://toricode.com/tag/check-more-types/</link>
+      <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/check-more-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Email</title>
+      <link>https://toricode.com/tag/javascript-check-email/</link>
+      <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Email</title>
+      <link>https://toricode.com/tag/javascript-validate-email/</link>
+      <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-email/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Node.js Basic</title>
