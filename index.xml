@@ -6,10 +6,70 @@
     <description>Recent content on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 23:42:23 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 23:28:55 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript check if an index is valid for given array using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-an-index-is-valid-for-given-array-using-check-more-types/</link>
+      <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-an-index-is-valid-for-given-array-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether an index value is valid for a given array or not using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a value is in the array using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-value-is-in-the-array-using-check-more-types/</link>
+      <pubDate>Thu, 01 Jul 2021 23:05:08 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-value-is-in-the-array-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given item is in the array or not using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a string is valid short git commit ID using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-string-is-valid-short-git-commit-id-using-check-more-types/</link>
+      <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-string-is-valid-short-git-commit-id-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given string is a valid 7 characters short SHA git commit ID using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a string is valid git commit ID using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-string-is-valid-git-commit-id-using-check-more-types/</link>
+      <pubDate>Thu, 01 Jul 2021 22:02:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-string-is-valid-git-commit-id-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given string is a valid 40 digit SHA git commit ID using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a string is valid SSH git URL using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-valid-ssh-git-url-using-check-more-types/</link>
+      <pubDate>Thu, 01 Jul 2021 21:16:01 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-valid-ssh-git-url-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given string is a valid SSH git URL or not using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
     
     <item>
       <title>JavaScript simple email validation using check-more-types library</title>

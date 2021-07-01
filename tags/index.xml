@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 30 Jun 2021 23:42:23 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 01 Jul 2021 23:28:55 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Check More Types</title>
       <link>https://toricode.com/tag/check-more-types/</link>
-      <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
+      <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
       
       <guid>https://toricode.com/tag/check-more-types/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Commitid</title>
+      <link>https://toricode.com/tag/javascript-check-commitid/</link>
+      <pubDate>Thu, 01 Jul 2021 22:02:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-commitid/</guid>
       <description></description>
     </item>
     
@@ -30,11 +39,92 @@
     </item>
     
     <item>
+      <title>Javascript Check Git</title>
+      <link>https://toricode.com/tag/javascript-check-git/</link>
+      <pubDate>Thu, 01 Jul 2021 21:16:01 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Index</title>
+      <link>https://toricode.com/tag/javascript-check-index/</link>
+      <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Oneof</title>
+      <link>https://toricode.com/tag/javascript-check-oneof/</link>
+      <pubDate>Thu, 01 Jul 2021 23:05:08 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-oneof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Shortcommitid</title>
+      <link>https://toricode.com/tag/javascript-check-shortcommitid/</link>
+      <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-shortcommitid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Commitid</title>
+      <link>https://toricode.com/tag/javascript-validate-commitid/</link>
+      <pubDate>Thu, 01 Jul 2021 22:02:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-commitid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Email</title>
       <link>https://toricode.com/tag/javascript-validate-email/</link>
       <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Git</title>
+      <link>https://toricode.com/tag/javascript-validate-git/</link>
+      <pubDate>Thu, 01 Jul 2021 21:16:01 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Index</title>
+      <link>https://toricode.com/tag/javascript-validate-index/</link>
+      <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Oneof</title>
+      <link>https://toricode.com/tag/javascript-validate-oneof/</link>
+      <pubDate>Thu, 01 Jul 2021 23:05:08 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-oneof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Shortcommitid</title>
+      <link>https://toricode.com/tag/javascript-validate-shortcommitid/</link>
+      <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-shortcommitid/</guid>
       <description></description>
     </item>
     

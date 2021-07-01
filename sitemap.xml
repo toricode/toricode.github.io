@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/javascript-check-if-an-index-is-valid-for-given-array-using-check-more-types/</loc>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript-check-if-a-value-is-in-the-array-using-check-more-types/</loc>
+    <lastmod>2021-07-01T23:05:08+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript-check-if-a-string-is-valid-short-git-commit-id-using-check-more-types/</loc>
+    <lastmod>2021-07-01T22:21:17+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript-check-if-a-string-is-valid-git-commit-id-using-check-more-types/</loc>
+    <lastmod>2021-07-01T22:02:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/javascript-check-valid-ssh-git-url-using-check-more-types/</loc>
+    <lastmod>2021-07-01T21:16:01+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/javascript-simple-email-validation-using-check-more-types/</loc>
     <lastmod>2021-06-30T23:42:23+07:00</lastmod>
   </url>
@@ -129,13 +154,19 @@
   
   <url>
     <loc>https://toricode.com/tag/check-more-types/</loc>
-    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/javascript/</loc>
-    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-commitid/</loc>
+    <lastmod>2021-07-01T22:02:05+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -146,14 +177,68 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/javascript-check-git/</loc>
+    <lastmod>2021-07-01T21:16:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-index/</loc>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-oneof/</loc>
+    <lastmod>2021-07-01T23:05:08+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-shortcommitid/</loc>
+    <lastmod>2021-07-01T22:21:17+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-commitid/</loc>
+    <lastmod>2021-07-01T22:02:05+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/tag/javascript-validate-email/</loc>
     <lastmod>2021-06-30T23:42:23+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/javascript-validate-git/</loc>
+    <lastmod>2021-07-01T21:16:01+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-index/</loc>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-oneof/</loc>
+    <lastmod>2021-07-01T23:05:08+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-shortcommitid/</loc>
+    <lastmod>2021-07-01T22:21:17+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/javascript/</loc>
-    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -273,13 +358,13 @@
   
   <url>
     <loc>https://toricode.com/tags/</loc>
-    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2021-06-30T23:42:23+07:00</lastmod>
+    <lastmod>2021-07-01T23:28:55+07:00</lastmod>
     <priority>0</priority>
   </url>
   
