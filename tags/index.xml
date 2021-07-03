@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 11:37:24 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 21:38:59 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Check More Types</title>
       <link>https://toricode.com/tag/check-more-types/</link>
-      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
       
       <guid>https://toricode.com/tag/check-more-types/</guid>
       <description></description>
@@ -93,11 +93,38 @@
     </item>
     
     <item>
+      <title>Javascript Check Port</title>
+      <link>https://toricode.com/tag/javascript-check-port/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-port/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Shortcommitid</title>
       <link>https://toricode.com/tag/javascript-check-shortcommitid/</link>
       <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-check-shortcommitid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Systemport</title>
+      <link>https://toricode.com/tag/javascript-check-systemport/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-systemport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Userport</title>
+      <link>https://toricode.com/tag/javascript-check-userport/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-userport/</guid>
       <description></description>
     </item>
     
@@ -174,11 +201,38 @@
     </item>
     
     <item>
+      <title>Javascript Validate Port</title>
+      <link>https://toricode.com/tag/javascript-validate-port/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-port/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Shortcommitid</title>
       <link>https://toricode.com/tag/javascript-validate-shortcommitid/</link>
       <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-shortcommitid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Systemport</title>
+      <link>https://toricode.com/tag/javascript-validate-systemport/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-systemport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Userport</title>
+      <link>https://toricode.com/tag/javascript-validate-userport/</link>
+      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-userport/</guid>
       <description></description>
     </item>
     

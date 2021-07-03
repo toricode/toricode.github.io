@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toricode.com/javascript-check-if-a-number-is-a-valid-port-using-check-more-types/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/javascript-check-if-a-number-is-odd-or-even-using-check-more-types/</loc>
     <lastmod>2021-07-03T11:37:24+07:00</lastmod>
   </url>
@@ -164,13 +169,13 @@
   
   <url>
     <loc>https://toricode.com/tag/check-more-types/</loc>
-    <lastmod>2021-07-03T11:37:24+07:00</lastmod>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/javascript/</loc>
-    <lastmod>2021-07-03T11:37:24+07:00</lastmod>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -223,8 +228,26 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/javascript-check-port/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/tag/javascript-check-shortcommitid/</loc>
     <lastmod>2021-07-01T22:21:17+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-systemport/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-check-userport/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -277,14 +300,32 @@
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/javascript-validate-port/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/tag/javascript-validate-shortcommitid/</loc>
     <lastmod>2021-07-01T22:21:17+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://toricode.com/tag/javascript-validate-systemport/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toricode.com/tag/javascript-validate-userport/</loc>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://toricode.com/javascript/</loc>
-    <lastmod>2021-07-03T11:37:24+07:00</lastmod>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -404,13 +445,13 @@
   
   <url>
     <loc>https://toricode.com/tags/</loc>
-    <lastmod>2021-07-03T11:37:24+07:00</lastmod>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toricode.com/</loc>
-    <lastmod>2021-07-03T11:37:24+07:00</lastmod>
+    <lastmod>2021-07-03T21:38:59+07:00</lastmod>
     <priority>0</priority>
   </url>
   
