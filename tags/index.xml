@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 23:28:55 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 11:37:24 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Check More Types</title>
       <link>https://toricode.com/tag/check-more-types/</link>
-      <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
       
       <guid>https://toricode.com/tag/check-more-types/</guid>
       <description></description>
@@ -39,6 +39,24 @@
     </item>
     
     <item>
+      <title>Javascript Check Even</title>
+      <link>https://toricode.com/tag/javascript-check-even/</link>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-even/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Extension</title>
+      <link>https://toricode.com/tag/javascript-check-extension/</link>
+      <pubDate>Sat, 03 Jul 2021 11:05:53 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Git</title>
       <link>https://toricode.com/tag/javascript-check-git/</link>
       <pubDate>Thu, 01 Jul 2021 21:16:01 +0700</pubDate>
@@ -53,6 +71,15 @@
       <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-check-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Odd</title>
+      <link>https://toricode.com/tag/javascript-check-odd/</link>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-odd/</guid>
       <description></description>
     </item>
     
@@ -93,6 +120,24 @@
     </item>
     
     <item>
+      <title>Javascript Validate Even</title>
+      <link>https://toricode.com/tag/javascript-validate-even/</link>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-even/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Extension</title>
+      <link>https://toricode.com/tag/javascript-validate-extension/</link>
+      <pubDate>Sat, 03 Jul 2021 11:05:53 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Git</title>
       <link>https://toricode.com/tag/javascript-validate-git/</link>
       <pubDate>Thu, 01 Jul 2021 21:16:01 +0700</pubDate>
@@ -107,6 +152,15 @@
       <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Odd</title>
+      <link>https://toricode.com/tag/javascript-validate-odd/</link>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-odd/</guid>
       <description></description>
     </item>
     

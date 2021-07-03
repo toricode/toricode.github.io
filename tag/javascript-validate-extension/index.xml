@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Validate Extension on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-validate-extension/</link>
+    <description>Recent content in Javascript Validate Extension on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jul 2021 11:05:53 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-validate-extension/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript validate file name extension using check-more-types library</title>
+      <link>https://toricode.com/javascript-validate-file-name-extension-using-check-more-types/</link>
+      <pubDate>Sat, 03 Jul 2021 11:05:53 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-validate-file-name-extension-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a file has expected file name extension or not using the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+  </channel>
+</rss>

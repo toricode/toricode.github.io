@@ -6,10 +6,34 @@
     <description>Recent content in Javascripts on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jul 2021 23:28:55 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 11:37:24 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript check if a number is odd or even using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-number-is-odd-or-even-using-check-more-types/</link>
+      <pubDate>Sat, 03 Jul 2021 11:37:24 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-number-is-odd-or-even-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a number is even or odd using the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.adsbygoogle || []).</description>
+    </item>
+    
+    <item>
+      <title>JavaScript validate file name extension using check-more-types library</title>
+      <link>https://toricode.com/javascript-validate-file-name-extension-using-check-more-types/</link>
+      <pubDate>Sat, 03 Jul 2021 11:05:53 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-validate-file-name-extension-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a file has expected file name extension or not using the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
     
     <item>
       <title>JavaScript check if an index is valid for given array using check-more-types library</title>
