@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 21:38:59 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jul 2021 00:09:16 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Check More Types</title>
       <link>https://toricode.com/tag/check-more-types/</link>
-      <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
+      <pubDate>Mon, 05 Jul 2021 00:09:16 +0700</pubDate>
       
       <guid>https://toricode.com/tag/check-more-types/</guid>
       <description></description>
@@ -30,11 +30,38 @@
     </item>
     
     <item>
+      <title>Javascript Check Contains</title>
+      <link>https://toricode.com/tag/javascript-check-contains/</link>
+      <pubDate>Sun, 04 Jul 2021 17:37:56 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-contains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Defined</title>
+      <link>https://toricode.com/tag/javascript-check-defined/</link>
+      <pubDate>Sun, 04 Jul 2021 20:15:44 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-defined/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Email</title>
       <link>https://toricode.com/tag/javascript-check-email/</link>
       <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-check-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Error</title>
+      <link>https://toricode.com/tag/javascript-check-error/</link>
+      <pubDate>Sun, 04 Jul 2021 15:52:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-error/</guid>
       <description></description>
     </item>
     
@@ -66,11 +93,47 @@
     </item>
     
     <item>
+      <title>Javascript Check Http</title>
+      <link>https://toricode.com/tag/javascript-check-http/</link>
+      <pubDate>Sun, 04 Jul 2021 16:22:00 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Https</title>
+      <link>https://toricode.com/tag/javascript-check-https/</link>
+      <pubDate>Sun, 04 Jul 2021 16:22:00 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Index</title>
       <link>https://toricode.com/tag/javascript-check-index/</link>
       <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-check-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Negative</title>
+      <link>https://toricode.com/tag/javascript-check-negative/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-negative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Negativenumber</title>
+      <link>https://toricode.com/tag/javascript-check-negativenumber/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-negativenumber/</guid>
       <description></description>
     </item>
     
@@ -102,6 +165,24 @@
     </item>
     
     <item>
+      <title>Javascript Check Positive</title>
+      <link>https://toricode.com/tag/javascript-check-positive/</link>
+      <pubDate>Sun, 04 Jul 2021 21:11:38 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-positive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Semver</title>
+      <link>https://toricode.com/tag/javascript-check-semver/</link>
+      <pubDate>Sun, 04 Jul 2021 20:45:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-semver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Shortcommitid</title>
       <link>https://toricode.com/tag/javascript-check-shortcommitid/</link>
       <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
@@ -120,11 +201,29 @@
     </item>
     
     <item>
+      <title>Javascript Check Type</title>
+      <link>https://toricode.com/tag/javascript-check-type/</link>
+      <pubDate>Mon, 05 Jul 2021 00:09:16 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Check Userport</title>
       <link>https://toricode.com/tag/javascript-check-userport/</link>
       <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-check-userport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Check Weburl</title>
+      <link>https://toricode.com/tag/javascript-check-weburl/</link>
+      <pubDate>Sun, 04 Jul 2021 16:41:36 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-check-weburl/</guid>
       <description></description>
     </item>
     
@@ -138,11 +237,38 @@
     </item>
     
     <item>
+      <title>Javascript Validate Contains</title>
+      <link>https://toricode.com/tag/javascript-validate-contains/</link>
+      <pubDate>Sun, 04 Jul 2021 17:37:56 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-contains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Defined</title>
+      <link>https://toricode.com/tag/javascript-validate-defined/</link>
+      <pubDate>Sun, 04 Jul 2021 20:15:44 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-defined/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Email</title>
       <link>https://toricode.com/tag/javascript-validate-email/</link>
       <pubDate>Wed, 30 Jun 2021 23:42:23 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-email/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Error</title>
+      <link>https://toricode.com/tag/javascript-validate-error/</link>
+      <pubDate>Sun, 04 Jul 2021 15:52:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-error/</guid>
       <description></description>
     </item>
     
@@ -174,11 +300,47 @@
     </item>
     
     <item>
+      <title>Javascript Validate Http</title>
+      <link>https://toricode.com/tag/javascript-validate-http/</link>
+      <pubDate>Sun, 04 Jul 2021 16:22:00 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Https</title>
+      <link>https://toricode.com/tag/javascript-validate-https/</link>
+      <pubDate>Sun, 04 Jul 2021 16:22:00 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-https/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Index</title>
       <link>https://toricode.com/tag/javascript-validate-index/</link>
       <pubDate>Thu, 01 Jul 2021 23:28:55 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-index/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Negative</title>
+      <link>https://toricode.com/tag/javascript-validate-negative/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-negative/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Negativenumber</title>
+      <link>https://toricode.com/tag/javascript-validate-negativenumber/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-negativenumber/</guid>
       <description></description>
     </item>
     
@@ -210,6 +372,24 @@
     </item>
     
     <item>
+      <title>Javascript Validate Positive</title>
+      <link>https://toricode.com/tag/javascript-validate-positive/</link>
+      <pubDate>Sun, 04 Jul 2021 21:11:38 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-positive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Semver</title>
+      <link>https://toricode.com/tag/javascript-validate-semver/</link>
+      <pubDate>Sun, 04 Jul 2021 20:45:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-semver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Shortcommitid</title>
       <link>https://toricode.com/tag/javascript-validate-shortcommitid/</link>
       <pubDate>Thu, 01 Jul 2021 22:21:17 +0700</pubDate>
@@ -228,11 +408,29 @@
     </item>
     
     <item>
+      <title>Javascript Validate Type</title>
+      <link>https://toricode.com/tag/javascript-validate-type/</link>
+      <pubDate>Mon, 05 Jul 2021 00:09:16 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript Validate Userport</title>
       <link>https://toricode.com/tag/javascript-validate-userport/</link>
       <pubDate>Sat, 03 Jul 2021 21:38:59 +0700</pubDate>
       
       <guid>https://toricode.com/tag/javascript-validate-userport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript Validate Weburl</title>
+      <link>https://toricode.com/tag/javascript-validate-weburl/</link>
+      <pubDate>Sun, 04 Jul 2021 16:41:36 +0700</pubDate>
+      
+      <guid>https://toricode.com/tag/javascript-validate-weburl/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Check Weburl on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-check-weburl/</link>
+    <description>Recent content in Javascript Check Weburl on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jul 2021 16:41:36 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-check-weburl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript check if a string is a valid web URL using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-string-is-a-valid-web-url-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 16:41:36 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-string-is-a-valid-web-url-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given string is a valid web URL or not using the webUrl() method of the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+  </channel>
+</rss>

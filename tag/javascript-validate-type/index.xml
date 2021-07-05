@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Validate Type on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-validate-type/</link>
+    <description>Recent content in Javascript Validate Type on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Jul 2021 00:09:16 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-validate-type/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript check bit value using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-bit-value-using-check-more-types/</link>
+      <pubDate>Mon, 05 Jul 2021 00:09:16 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-bit-value-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check a given number whether it is 0 or 1 value using the bit() method of the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check type of a value using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-type-of-a-value-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 23:49:06 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-type-of-a-value-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check the type of a value using the type() method of check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+  </channel>
+</rss>

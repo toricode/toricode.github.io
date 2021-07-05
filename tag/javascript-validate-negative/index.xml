@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Validate Negative on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-validate-negative/</link>
+    <description>Recent content in Javascript Validate Negative on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jul 2021 23:22:28 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-validate-negative/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript check if a number is negative or not using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-number-is-negative-or-not-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-number-is-negative-or-not-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to use the check-more-types module to check if a number is a negative number or not using negative() or negativeNumber() method of the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript Validate Error on Tori Code</title>
+    <link>https://toricode.com/tag/javascript-validate-error/</link>
+    <description>Recent content in Javascript Validate Error on Tori Code</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Jul 2021 15:52:02 +0700</lastBuildDate>
+    
+	<atom:link href="https://toricode.com/tag/javascript-validate-error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JavaScript check if an object is an instance of type Error using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-an-object-is-an-instance-of-type-error-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 15:52:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-an-object-is-an-instance-of-type-error-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether an object is an instance of type Error or not using the error() method of check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+  </channel>
+</rss>

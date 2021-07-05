@@ -6,10 +6,127 @@
     <description>Recent content on Tori Code</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jul 2021 21:38:59 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jul 2021 00:09:16 +0700</lastBuildDate>
     
 	<atom:link href="https://toricode.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JavaScript check bit value using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-bit-value-using-check-more-types/</link>
+      <pubDate>Mon, 05 Jul 2021 00:09:16 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-bit-value-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check a given number whether it is 0 or 1 value using the bit() method of the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check type of a value using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-type-of-a-value-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 23:49:06 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-type-of-a-value-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check the type of a value using the type() method of check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a number is negative or not using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-number-is-negative-or-not-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 23:22:28 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-number-is-negative-or-not-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to use the check-more-types module to check if a number is a negative number or not using negative() or negativeNumber() method of the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a number is positive or not using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-number-is-positive-or-not-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 21:11:38 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-number-is-positive-or-not-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check a number value to determine if it is positive or not using the positive() method of the check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a string is exact semver format using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-string-is-exact-semver-format-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 20:45:05 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-string-is-exact-semver-format-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check a given string to determine if it is an exact semver format or not using the semver() method of check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if an variable is defined or not using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-an-variable-is-defined-or-not-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 20:15:44 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-an-variable-is-defined-or-not-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check if a variable is defined or not using the defined() method of check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a Array or a string contains a value using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-array-or-a-string-contains-a-value-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 17:37:56 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-array-or-a-string-contains-a-value-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given array contains an item or a given string contains a substring using the contains() method of check-more-types module.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if a string is a valid web URL using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-a-string-is-a-valid-web-url-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 16:41:36 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-a-string-is-a-valid-web-url-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether a given string is a valid web URL or not using the webUrl() method of the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if an URL is http or https using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-an-url-is-http-or-https-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 16:22:00 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-an-url-is-http-or-https-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to validate if a given string is an http or https using the http() and https() method of the check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
+    
+    <item>
+      <title>JavaScript check if an object is an instance of type Error using check-more-types library</title>
+      <link>https://toricode.com/javascript-check-if-an-object-is-an-instance-of-type-error-using-check-more-types/</link>
+      <pubDate>Sun, 04 Jul 2021 15:52:02 +0700</pubDate>
+      
+      <guid>https://toricode.com/javascript-check-if-an-object-is-an-instance-of-type-error-using-check-more-types/</guid>
+      <description>In this JavaScript tutorial we learn how to check whether an object is an instance of type Error or not using the error() method of check-more-types library.
+   (adsbygoogle = window.adsbygoogle || []).push({});  Create the sample project Firstly we create an empty project with the following command.
+mkdir sample-project cd sample-project npm init -y And install the check-more-types module using the following command.
+npm install check-more-types --save    (adsbygoogle = window.</description>
+    </item>
     
     <item>
       <title>JavaScript check if a number is a valid port using check-more-types library</title>
